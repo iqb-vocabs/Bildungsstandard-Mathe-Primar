@@ -1,0 +1,399 @@
+@base <https://example.com/iqb/bista2004mp/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<> a skos:ConceptScheme ;
+    dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de ;
+    dct:description "Mathematik als Werkzeug, um Erscheinungen der Welt aus Natur, Gesellschaft, Kultur, Beruf und Arbeit in einer spezifischen Weise wahrzunehmen und zu verstehen, Mathematik  als geistige Schöpfung und auch deduktiv geordnete Welt eigener Art kennen zu lernen und zu begreifen, Mathematik als Mittel zum Erwerb von auch über die Mathematik hinausgehenden, insbesondere heuristischen Fähigkeiten, zu erfahren." ;
+    dct:publisher "IQB" ;
+    dct:title "Mathematik Primar" .
+
+<1> a skos:Concept ;
+    skos:definition "Die folgenden Aufgabenbeispiele zeigen die Bandbreite unterschiedlicher Anforderungen Manche Aufgaben bzw. Teilaufgaben lassen sich durch Reproduzieren im Rahmen gelernter und geübter Verfahren in einem abgegrenzten Gebiet lösen. Andere verlangen den selbstständigen, kreativen Umgang mit erworbenen mathematischen Kompetenzen. Wenn die Beispielaufgaben als Repräsentanten eines bestimmten Anforderungsbereichs definiert und entsprechend gekennzeichnet sind, so handelt es sich hierbei um eine vorläufige, empirisch nicht validierte Zuordnung, die nicht immer eindeutig zu treffen ist. Es werden hier so genannte „große Aufgaben“ vorgestellt, die der Leistungsheterogenität von Grundschülern dadurch Rechnung tragen, dass sie im gleichen inhaltlichen Kontext ein breites Spektrum an unterschiedlichen Anforderungen und Schwierigkeiten abdecken. Dadurch können die Aufgabenbeispiele zugleich als Muster für einen differenzierenden Unterricht fungieren, in dem alle Kinder am gleichen Inhalt arbeiten, aber nicht unbedingt dieselben Aufgaben lösen. Bei den Aufgabenbeispielen lassen sich folgende Anforderungsbereiche unterscheiden:" ;
+    skos:prefLabel "Anforderungsbereiche" ;
+    skos:topConceptOf "https://example.com/iqb/bista2004mp/1/1.1",
+        "https://example.com/iqb/bista2004mp/1/1.2",
+        "https://example.com/iqb/bista2004mp/1/1.3" .
+
+<1/1.1> a skos:Concept ;
+    skos:hasTopConcept "https://example.com/iqb/bista2004mp/1" ;
+    skos:prefLabel "I Reproduzieren" ;
+    skos:topConceptOf "https://example.com/iqb/bista2004mp/1/1.1/1.1.a" .
+
+<1/1.1/1.1.a> skos:hasTopConcept "https://example.com/iqb/bista2004mp/1/1.1" ;
+    skos:prefLabel "<ul><li>Das Lösen der Aufgabe erfordert Grundwissen und das Ausführen von Routinetätigkeiten.</li></ul>" .
+
+<1/1.2> a skos:Concept ;
+    skos:hasTopConcept "https://example.com/iqb/bista2004mp/1" ;
+    skos:prefLabel "II Zusammenhänge herstellen" ;
+    skos:topConceptOf "https://example.com/iqb/bista2004mp/1/1.2/1.2.a" .
+
+<1/1.2/1.2.a> skos:hasTopConcept "https://example.com/iqb/bista2004mp/1/1.2" ;
+    skos:prefLabel "<ul><li>Das Lösen der Aufgabe erfordert das Erkennen und Nutzen von Zusammenhängen.</li></ul>" .
+
+<1/1.3> a skos:Concept ;
+    skos:hasTopConcept "https://example.com/iqb/bista2004mp/1" ;
+    skos:prefLabel "III Verallgemeinern und Reflektieren" ;
+    skos:topConceptOf "https://example.com/iqb/bista2004mp/1/1.3/1.3.a" .
+
+<1/1.3/1.3.a> skos:hasTopConcept "https://example.com/iqb/bista2004mp/1/1.3" ;
+    skos:prefLabel "<ul><li>Das Lösen der Aufgabe erfordert komplexe Tätigkeiten wie Strukturieren, Entwickeln von Strategien, Beurteilen und Verallgemeinern.</li></ul>" .
+
+<2> a skos:Concept ;
+    skos:definition "Allgemeine mathematische Kompetenzen zeigen sich in der lebendigen Auseinandersetzung mit Mathematik und auf die gleiche Weise, in der tätigen Auseinandersetzung, werden sie erworben. Die angestrebten Formen der Nutzung von Mathematik müssen daher auch regelmäßig genutzte Formen des Mathematiklernens sein. Von zentraler Bedeutung für eine erfolgreiche Nutzung und Aneignung von Mathematik sind vor allem die folgenden fünf allgemeinen mathematischen Kompetenzen. Diese lassen sich für Schülerinnen und Schüler am Ende der 4. Jahrgangsstufe wie folgt konkretisieren:" ;
+    skos:prefLabel "Allgemeine Kompetenzen" ;
+    skos:topConceptOf "https://example.com/iqb/bista2004mp/2/2.1",
+        "https://example.com/iqb/bista2004mp/2/2.2",
+        "https://example.com/iqb/bista2004mp/2/2.3",
+        "https://example.com/iqb/bista2004mp/2/2.4",
+        "https://example.com/iqb/bista2004mp/2/2.5" .
+
+<2/2.1> a skos:Concept ;
+    skos:hasTopConcept "https://example.com/iqb/bista2004mp/2" ;
+    skos:prefLabel "Problemlösen" ;
+    skos:topConceptOf "https://example.com/iqb/bista2004mp/2/2.1/2.1.a",
+        "https://example.com/iqb/bista2004mp/2/2.1/2.1.b",
+        "https://example.com/iqb/bista2004mp/2/2.1/2.1.c" .
+
+<2/2.1/2.1.a> skos:hasTopConcept "https://example.com/iqb/bista2004mp/2/2.1" ;
+    skos:prefLabel "<ul><li>mathematische Kenntnisse, Fertigkeiten und Fähigkeiten bei der Bearbeitung problemhaltiger Aufgaben anwenden,</li></ul>" .
+
+<2/2.1/2.1.b> skos:hasTopConcept "https://example.com/iqb/bista2004mp/2/2.1" ;
+    skos:prefLabel "<ul><li>Lösungsstrategien entwickeln und nutzen (z.B. systematisch probieren),</li></ul>" .
+
+<2/2.1/2.1.c> skos:hasTopConcept "https://example.com/iqb/bista2004mp/2/2.1" ;
+    skos:prefLabel "<ul><li>Zusammenhänge erkennen, nutzen und auf ähnliche Sachverhalte übertragen.</li></ul>" .
+
+<2/2.2> a skos:Concept ;
+    skos:hasTopConcept "https://example.com/iqb/bista2004mp/2" ;
+    skos:prefLabel "Kommunizieren" ;
+    skos:topConceptOf "https://example.com/iqb/bista2004mp/2/2.2/2.2.a",
+        "https://example.com/iqb/bista2004mp/2/2.2/2.2.b",
+        "https://example.com/iqb/bista2004mp/2/2.2/2.2.c" .
+
+<2/2.2/2.2.a> skos:hasTopConcept "https://example.com/iqb/bista2004mp/2/2.2" ;
+    skos:prefLabel "<ul><li>eigene Vorgehensweisen beschreiben, Lösungswege anderer verstehen und gemeinsam darüber reflektieren,</li></ul>" .
+
+<2/2.2/2.2.b> skos:hasTopConcept "https://example.com/iqb/bista2004mp/2/2.2" ;
+    skos:prefLabel "<ul><li>mathematische Fachbegriffe und Zeichen sachgerecht verwenden,</li></ul>" .
+
+<2/2.2/2.2.c> skos:hasTopConcept "https://example.com/iqb/bista2004mp/2/2.2" ;
+    skos:prefLabel "<ul><li>Aufgaben gemeinsam bearbeiten, dabei Verabredungen treffen und einhalten.</li></ul>" .
+
+<2/2.3> a skos:Concept ;
+    skos:hasTopConcept "https://example.com/iqb/bista2004mp/2" ;
+    skos:prefLabel "Argumentieren" ;
+    skos:topConceptOf "https://example.com/iqb/bista2004mp/2/2.3/2.3.a",
+        "https://example.com/iqb/bista2004mp/2/2.3/2.3.b",
+        "https://example.com/iqb/bista2004mp/2/2.3/2.3.c" .
+
+<2/2.3/2.3.a> skos:hasTopConcept "https://example.com/iqb/bista2004mp/2/2.3" ;
+    skos:prefLabel "<ul><li>mathematische Aussagen hinterfragen und auf Korrektheit prüfen,</li></ul>" .
+
+<2/2.3/2.3.b> skos:hasTopConcept "https://example.com/iqb/bista2004mp/2/2.3" ;
+    skos:prefLabel "<ul><li>mathematische Zusammenhänge erkennen und Vermutungen entwickeln,</li></ul>" .
+
+<2/2.3/2.3.c> skos:hasTopConcept "https://example.com/iqb/bista2004mp/2/2.3" ;
+    skos:prefLabel "<ul><li>Begründungen suchen und nachvollziehen.</li></ul>" .
+
+<2/2.4> a skos:Concept ;
+    skos:hasTopConcept "https://example.com/iqb/bista2004mp/2" ;
+    skos:prefLabel "Modellieren" ;
+    skos:topConceptOf "https://example.com/iqb/bista2004mp/2/2.4/2.4.a",
+        "https://example.com/iqb/bista2004mp/2/2.4/2.4.b",
+        "https://example.com/iqb/bista2004mp/2/2.4/2.4.c" .
+
+<2/2.4/2.4.a> skos:hasTopConcept "https://example.com/iqb/bista2004mp/2/2.4" ;
+    skos:prefLabel "<ul><li>Sachtexten und anderen Darstellungen der Lebenswirklichkeit die relevanten Informationen entnehmen,</li></ul>" .
+
+<2/2.4/2.4.b> skos:hasTopConcept "https://example.com/iqb/bista2004mp/2/2.4" ;
+    skos:prefLabel "<ul><li>Sachprobleme in die Sprache der Mathematik übersetzen, innermathematisch lösen und diese Lösungen auf die Ausgangssituation beziehen,</li></ul>" .
+
+<2/2.4/2.4.c> skos:hasTopConcept "https://example.com/iqb/bista2004mp/2/2.4" ;
+    skos:prefLabel "<ul><li>zu Termen, Gleichungen und bildlichen Darstellungen Sachaufgaben formulieren.</li></ul>" .
+
+<2/2.5> a skos:Concept ;
+    skos:hasTopConcept "https://example.com/iqb/bista2004mp/2" ;
+    skos:prefLabel "Darstellen" ;
+    skos:topConceptOf "https://example.com/iqb/bista2004mp/2/2.5/2.5.a",
+        "https://example.com/iqb/bista2004mp/2/2.5/2.5.b",
+        "https://example.com/iqb/bista2004mp/2/2.5/2.5.c" .
+
+<2/2.5/2.5.a> skos:hasTopConcept "https://example.com/iqb/bista2004mp/2/2.5" ;
+    skos:prefLabel "<ul><li>für das Bearbeiten mathematischer Probleme geeignete Darstellungen entwickeln, auswählen und nutzen,</li></ul>" .
+
+<2/2.5/2.5.b> skos:hasTopConcept "https://example.com/iqb/bista2004mp/2/2.5" ;
+    skos:prefLabel "<ul><li>eine Darstellung in eine andere übertragen,</li></ul>" .
+
+<2/2.5/2.5.c> skos:hasTopConcept "https://example.com/iqb/bista2004mp/2/2.5" ;
+    skos:prefLabel "<ul><li>Darstellungen miteinander vergleichen und bewerten.</li></ul>" .
+
+<3> a skos:Concept ;
+    skos:definition "Die Standards orientieren sich inhaltlich an mathematischen Leitideen, die für den gesamten Mathematikunterricht - für die Grundschule undfür das weiterführende Lernen - von fundamentaler Bedeutung sind. Für Schülerinnen und Schüler am Ende der 4. Jahrgangsstufe lassen sich aus diesen Leitideen folgende Standards für inhaltsbezogene mathematische Kompetenzen ableiten, die im Unterricht aufeinander bezogen und miteinander verknüpft werden:" ;
+    skos:prefLabel "Inhaltsbezogene Kompetenzen" ;
+    skos:topConceptOf "https://example.com/iqb/bista2004mp/3/3.1",
+        "https://example.com/iqb/bista2004mp/3/3.2",
+        "https://example.com/iqb/bista2004mp/3/3.3",
+        "https://example.com/iqb/bista2004mp/3/3.4",
+        "https://example.com/iqb/bista2004mp/3/3.5" .
+
+<3/3.1> a skos:Concept ;
+    skos:hasTopConcept "https://example.com/iqb/bista2004mp/3" ;
+    skos:prefLabel "Zahlen und Operationen" ;
+    skos:topConceptOf "https://example.com/iqb/bista2004mp/3/3.1/3.1.a",
+        "https://example.com/iqb/bista2004mp/3/3.1/3.1.b",
+        "https://example.com/iqb/bista2004mp/3/3.1/3.1.c" .
+
+<3/3.1/3.1.a> skos:hasTopConcept "https://example.com/iqb/bista2004mp/3/3.1" ;
+    skos:prefLabel "Zahldarstellungen und Zahlbeziehungen verstehen" ;
+    skos:topConceptOf "https://example.com/iqb/bista2004mp/3/3.1/3.1.a/3.1.a.i",
+        "https://example.com/iqb/bista2004mp/3/3.1/3.1.a/3.1.a.ii",
+        "https://example.com/iqb/bista2004mp/3/3.1/3.1.a/3.1.a.iii" .
+
+<3/3.1/3.1.a/3.1.a.i> skos:hasTopConcept "https://example.com/iqb/bista2004mp/3/3.1/3.1.a" ;
+    skos:prefLabel "den Aufbau des dezimalen Stellenwertsystems verstehen," .
+
+<3/3.1/3.1.a/3.1.a.ii> skos:hasTopConcept "https://example.com/iqb/bista2004mp/3/3.1/3.1.a" ;
+    skos:prefLabel "Zahlen bis 1.000.000 auf verschiedene Weise darstellen und zueinander in Beziehung setzen," .
+
+<3/3.1/3.1.a/3.1.a.iii> skos:hasTopConcept "https://example.com/iqb/bista2004mp/3/3.1/3.1.a" ;
+    skos:prefLabel "sich im Zahlenraum bis 1.000.000 orientieren(z. B. Zahlen der Größe nach ordnen, runden)." .
+
+<3/3.1/3.1.b> skos:hasTopConcept "https://example.com/iqb/bista2004mp/3/3.1" ;
+    skos:prefLabel "Rechenoperationen verstehen und beherrschen" ;
+    skos:topConceptOf "https://example.com/iqb/bista2004mp/3/3.1/3.1.b/3.1.b.i",
+        "https://example.com/iqb/bista2004mp/3/3.1/3.1.b/3.1.b.ii",
+        "https://example.com/iqb/bista2004mp/3/3.1/3.1.b/3.1.b.iii",
+        "https://example.com/iqb/bista2004mp/3/3.1/3.1.b/3.1.b.iv",
+        "https://example.com/iqb/bista2004mp/3/3.1/3.1.b/3.1.b.v",
+        "https://example.com/iqb/bista2004mp/3/3.1/3.1.b/3.1.b.vi",
+        "https://example.com/iqb/bista2004mp/3/3.1/3.1.b/3.1.b.vii" .
+
+<3/3.1/3.1.b/3.1.b.i> skos:hasTopConcept "https://example.com/iqb/bista2004mp/3/3.1/3.1.b" ;
+    skos:prefLabel "die vier Grundrechenarten und ihre Zusammenhänge verstehen," .
+
+<3/3.1/3.1.b/3.1.b.ii> skos:hasTopConcept "https://example.com/iqb/bista2004mp/3/3.1/3.1.b" ;
+    skos:prefLabel "die Grundaufgaben des Kopfrechnens (Einspluseins, Einmaleins, Zahlzerlegungen) gedächtnismäßig beherrschen, deren Umkehrungen sicher ableiten und diese Grundkenntnisse auf analoge Aufgaben in größeren Zahlenräumen übertragen," .
+
+<3/3.1/3.1.b/3.1.b.iii> skos:hasTopConcept "https://example.com/iqb/bista2004mp/3/3.1/3.1.b" ;
+    skos:prefLabel "mündliche und halbschriftliche Rechenstrategien verstehen und bei geeigneten Aufgaben anwenden," .
+
+<3/3.1/3.1.b/3.1.b.iv> skos:hasTopConcept "https://example.com/iqb/bista2004mp/3/3.1/3.1.b" ;
+    skos:prefLabel "verschiedene Rechenwege vergleichen und bewerten; Rechenfehler finden, erklären und korrigieren," .
+
+<3/3.1/3.1.b/3.1.b.v> skos:hasTopConcept "https://example.com/iqb/bista2004mp/3/3.1/3.1.b" ;
+    skos:prefLabel "Rechengesetze erkennen, erklären und benutzen," .
+
+<3/3.1/3.1.b/3.1.b.vi> skos:hasTopConcept "https://example.com/iqb/bista2004mp/3/3.1/3.1.b" ;
+    skos:prefLabel "schriftliche Verfahren der Addition, Subtraktion und Multiplikation verstehen, geläufig ausführen und bei geeigneten Aufgaben anwenden," .
+
+<3/3.1/3.1.b/3.1.b.vii> skos:hasTopConcept "https://example.com/iqb/bista2004mp/3/3.1/3.1.b" ;
+    skos:prefLabel "Lösungen durch Überschlagsrechnungen und durch Anwenden der Umkehroperation kontrollieren." .
+
+<3/3.1/3.1.c> skos:hasTopConcept "https://example.com/iqb/bista2004mp/3/3.1" ;
+    skos:prefLabel "in Kontexten rechnen" ;
+    skos:topConceptOf "https://example.com/iqb/bista2004mp/3/3.1/3.1.c/3.1.c.i",
+        "https://example.com/iqb/bista2004mp/3/3.1/3.1.c/3.1.c.ii",
+        "https://example.com/iqb/bista2004mp/3/3.1/3.1.c/3.1.c.iii",
+        "https://example.com/iqb/bista2004mp/3/3.1/3.1.c/3.1.c.iv",
+        "https://example.com/iqb/bista2004mp/3/3.1/3.1.c/3.1.c.v" .
+
+<3/3.1/3.1.c/3.1.c.i> skos:hasTopConcept "https://example.com/iqb/bista2004mp/3/3.1/3.1.c" ;
+    skos:prefLabel "Sachaufgaben lösen und dabei die Beziehungen zwischen der Sache und den einzelnen Lösungsschritten beschreiben," .
+
+<3/3.1/3.1.c/3.1.c.ii> skos:hasTopConcept "https://example.com/iqb/bista2004mp/3/3.1/3.1.c" ;
+    skos:prefLabel "das Ergebnis auf Plausibilität prüfen," .
+
+<3/3.1/3.1.c/3.1.c.iii> skos:hasTopConcept "https://example.com/iqb/bista2004mp/3/3.1/3.1.c" ;
+    skos:prefLabel "bei Sachaufgaben entscheiden, ob eine Überschlagsrechnung ausreicht oder ein genaues Ergebnis nötig ist," .
+
+<3/3.1/3.1.c/3.1.c.iv> skos:hasTopConcept "https://example.com/iqb/bista2004mp/3/3.1/3.1.c" ;
+    skos:prefLabel "Sachaufgaben systematisch variieren," .
+
+<3/3.1/3.1.c/3.1.c.v> skos:hasTopConcept "https://example.com/iqb/bista2004mp/3/3.1/3.1.c" ;
+    skos:prefLabel "einfache kombinatorische Aufgaben (z.B. Knobelaufgaben) durch Probieren bzw. systematisches Vorgehen lösen." .
+
+<3/3.2> a skos:Concept ;
+    skos:hasTopConcept "https://example.com/iqb/bista2004mp/3" ;
+    skos:prefLabel "Raum und Form" ;
+    skos:topConceptOf "https://example.com/iqb/bista2004mp/3/3.2/3.2.a",
+        "https://example.com/iqb/bista2004mp/3/3.2/3.2.b",
+        "https://example.com/iqb/bista2004mp/3/3.2/3.2.c",
+        "https://example.com/iqb/bista2004mp/3/3.2/3.2.d" .
+
+<3/3.2/3.2.a> skos:hasTopConcept "https://example.com/iqb/bista2004mp/3/3.2" ;
+    skos:prefLabel "sich im Raum orientieren" ;
+    skos:topConceptOf "https://example.com/iqb/bista2004mp/3/3.2/3.2.a/3.2.a.i",
+        "https://example.com/iqb/bista2004mp/3/3.2/3.2.a/3.2.a.ii",
+        "https://example.com/iqb/bista2004mp/3/3.2/3.2.a/3.2.a.iii" .
+
+<3/3.2/3.2.a/3.2.a.i> skos:hasTopConcept "https://example.com/iqb/bista2004mp/3/3.2/3.2.a" ;
+    skos:prefLabel "über räumliches Vorstellungsvermögen verfügen," .
+
+<3/3.2/3.2.a/3.2.a.ii> skos:hasTopConcept "https://example.com/iqb/bista2004mp/3/3.2/3.2.a" ;
+    skos:prefLabel "räumliche Beziehungen erkennen, beschreiben und nutzen (Anordnungen, Wege, Pläne, Ansichten)," .
+
+<3/3.2/3.2.a/3.2.a.iii> skos:hasTopConcept "https://example.com/iqb/bista2004mp/3/3.2/3.2.a" ;
+    skos:prefLabel "zwei- und dreidimensionale Darstellungen von Bauwerken (z.B. Würfelgebäuden) zueinander in Beziehung setzen (nach Vorlage bauen, zu Bauten Baupläne erstellen, Kantenmodelle und Netze untersuchen).ße nach ordnen, runden)." .
+
+<3/3.2/3.2.b> skos:hasTopConcept "https://example.com/iqb/bista2004mp/3/3.2" ;
+    skos:prefLabel "geometrische Figuren erkennen, benennen und darstellen" ;
+    skos:topConceptOf "https://example.com/iqb/bista2004mp/3/3.2/3.2.b/3.2.b.i",
+        "https://example.com/iqb/bista2004mp/3/3.2/3.2.b/3.2.b.ii",
+        "https://example.com/iqb/bista2004mp/3/3.2/3.2.b/3.2.b.iii",
+        "https://example.com/iqb/bista2004mp/3/3.2/3.2.b/3.2.b.iv" .
+
+<3/3.2/3.2.b/3.2.b.i> skos:hasTopConcept "https://example.com/iqb/bista2004mp/3/3.2/3.2.b" ;
+    skos:prefLabel "Körper und ebene Figuren nach Eigenschaften sortieren und Fachbegriffe zuordnen," .
+
+<3/3.2/3.2.b/3.2.b.ii> skos:hasTopConcept "https://example.com/iqb/bista2004mp/3/3.2/3.2.b" ;
+    skos:prefLabel "Körper und ebene Figuren in der Umwelt wieder erkennen," .
+
+<3/3.2/3.2.b/3.2.b.iii> skos:hasTopConcept "https://example.com/iqb/bista2004mp/3/3.2/3.2.b" ;
+    skos:prefLabel "Modelle von Körpern und ebenen Figuren herstellen und untersuchen (Bauen, Legen, Zerlegen,Zusammenfügen, Ausschneiden, Falten...)," .
+
+<3/3.2/3.2.b/3.2.b.iv> skos:hasTopConcept "https://example.com/iqb/bista2004mp/3/3.2/3.2.b" ;
+    skos:prefLabel "Zeichnungen mit Hilfsmitteln sowie Freihandzeichnungen anfertigen," .
+
+<3/3.2/3.2.c> skos:hasTopConcept "https://example.com/iqb/bista2004mp/3/3.2" ;
+    skos:prefLabel "einfache geometrische Abbildungen erkennen, benennen und darstellen" ;
+    skos:topConceptOf "https://example.com/iqb/bista2004mp/3/3.2/3.2.c/3.2.c.i",
+        "https://example.com/iqb/bista2004mp/3/3.2/3.2.c/3.2.c.ii",
+        "https://example.com/iqb/bista2004mp/3/3.2/3.2.c/3.2.c.iii" .
+
+<3/3.2/3.2.c/3.2.c.i> skos:hasTopConcept "https://example.com/iqb/bista2004mp/3/3.2/3.2.c" ;
+    skos:prefLabel "ebene Figuren in Gitternetzen abbilden (verkleinern und vergrößern)," .
+
+<3/3.2/3.2.c/3.2.c.ii> skos:hasTopConcept "https://example.com/iqb/bista2004mp/3/3.2/3.2.c" ;
+    skos:prefLabel "Eigenschaften der Achsensymmetrie erkennen,beschreiben und nutzen," .
+
+<3/3.2/3.2.c/3.2.c.iii> skos:hasTopConcept "https://example.com/iqb/bista2004mp/3/3.2/3.2.c" ;
+    skos:prefLabel "symmetrische Muster fortsetzen und selbst entwickeln." .
+
+<3/3.2/3.2.d> skos:hasTopConcept "https://example.com/iqb/bista2004mp/3/3.2" ;
+    skos:prefLabel "Flächen- und Rauminhalte vergleichen und messen" ;
+    skos:topConceptOf "https://example.com/iqb/bista2004mp/3/3.2/3.2.d/3.2.d.i",
+        "https://example.com/iqb/bista2004mp/3/3.2/3.2.d/3.2.d.ii",
+        "https://example.com/iqb/bista2004mp/3/3.2/3.2.d/3.2.d.iii" .
+
+<3/3.2/3.2.d/3.2.d.i> skos:hasTopConcept "https://example.com/iqb/bista2004mp/3/3.2/3.2.d" ;
+    skos:prefLabel "die Flächeninhalte ebener Figuren durch Zerlegen vergleichen und durch Auslegen mit Einheitsflächen messen," .
+
+<3/3.2/3.2.d/3.2.d.ii> skos:hasTopConcept "https://example.com/iqb/bista2004mp/3/3.2/3.2.d" ;
+    skos:prefLabel "Umfang und Flächeninhalt von ebenen Figuren untersuchen," .
+
+<3/3.2/3.2.d/3.2.d.iii> skos:hasTopConcept "https://example.com/iqb/bista2004mp/3/3.2/3.2.d" ;
+    skos:prefLabel "Rauminhalte vergleichen und durch die enthaltene Anzahl von Einheitswürfeln bestimmen." .
+
+<3/3.3> a skos:Concept ;
+    skos:hasTopConcept "https://example.com/iqb/bista2004mp/3" ;
+    skos:prefLabel "Muster und Strukturen" ;
+    skos:topConceptOf "https://example.com/iqb/bista2004mp/3/3.3/3.3.a",
+        "https://example.com/iqb/bista2004mp/3/3.3/3.3.b" .
+
+<3/3.3/3.3.a> skos:hasTopConcept "https://example.com/iqb/bista2004mp/3/3.3" ;
+    skos:prefLabel "Gesetzmäßigkeiten erkennen, beschreiben und darstellen" ;
+    skos:topConceptOf "https://example.com/iqb/bista2004mp/3/3.3/3.3.a/3.3.a.i",
+        "https://example.com/iqb/bista2004mp/3/3.3/3.3.a/3.3.a.ii",
+        "https://example.com/iqb/bista2004mp/3/3.3/3.3.a/3.3.a.iii" .
+
+<3/3.3/3.3.a/3.3.a.i> skos:hasTopConcept "https://example.com/iqb/bista2004mp/3/3.3/3.3.a" ;
+    skos:prefLabel "strukturierte Zahldarstellungen (z.B. Hundertertafel) verstehen und nutzen," .
+
+<3/3.3/3.3.a/3.3.a.ii> skos:hasTopConcept "https://example.com/iqb/bista2004mp/3/3.3/3.3.a" ;
+    skos:prefLabel "Gesetzmäßigkeiten in geometrischen und arithmetischen Mustern (z.B. in Zahlenfolgen oder strukturierten Aufgabenfolgen) erkennen, beschreiben und fortsetzen," .
+
+<3/3.3/3.3.a/3.3.a.iii> skos:hasTopConcept "https://example.com/iqb/bista2004mp/3/3.3/3.3.a" ;
+    skos:prefLabel "arithmetische und geometrische Muster selbst entwickeln, systematisch verändern und beschreiben." .
+
+<3/3.3/3.3.b> skos:hasTopConcept "https://example.com/iqb/bista2004mp/3/3.3" ;
+    skos:prefLabel "funktionale Beziehungen erkennen, beschreiben und darstellen" ;
+    skos:topConceptOf "https://example.com/iqb/bista2004mp/3/3.3/3.3.b/3.3.b.i",
+        "https://example.com/iqb/bista2004mp/3/3.3/3.3.b/3.3.b.ii",
+        "https://example.com/iqb/bista2004mp/3/3.3/3.3.b/3.3.b.iii" .
+
+<3/3.3/3.3.b/3.3.b.i> skos:hasTopConcept "https://example.com/iqb/bista2004mp/3/3.3/3.3.b" ;
+    skos:prefLabel "funktionale Beziehungen in Sachsituationen erkennen, sprachlich beschreiben (z.B. Menge - Preis) und entsprechende Aufgaben lösen," .
+
+<3/3.3/3.3.b/3.3.b.ii> skos:hasTopConcept "https://example.com/iqb/bista2004mp/3/3.3/3.3.b" ;
+    skos:prefLabel "funktionale Beziehungen in Tabellen darstellen und untersuchen," .
+
+<3/3.3/3.3.b/3.3.b.iii> skos:hasTopConcept "https://example.com/iqb/bista2004mp/3/3.3/3.3.b" ;
+    skos:prefLabel "einfache Sachaufgaben zur Proportionalität lösen." .
+
+<3/3.4> a skos:Concept ;
+    skos:hasTopConcept "https://example.com/iqb/bista2004mp/3" ;
+    skos:prefLabel "Größen und Messen" ;
+    skos:topConceptOf "https://example.com/iqb/bista2004mp/3/3.4/3.4.a",
+        "https://example.com/iqb/bista2004mp/3/3.4/3.4.b" .
+
+<3/3.4/3.4.a> skos:hasTopConcept "https://example.com/iqb/bista2004mp/3/3.4" ;
+    skos:prefLabel "Größenvorstellungen besitzen" ;
+    skos:topConceptOf "https://example.com/iqb/bista2004mp/3/3.4/3.4.a/3.4.a.i",
+        "https://example.com/iqb/bista2004mp/3/3.4/3.4.a/3.4.a.ii",
+        "https://example.com/iqb/bista2004mp/3/3.4/3.4.a/3.4.a.iii",
+        "https://example.com/iqb/bista2004mp/3/3.4/3.4.a/3.4.a.iv",
+        "https://example.com/iqb/bista2004mp/3/3.4/3.4.a/3.4.a.v" .
+
+<3/3.4/3.4.a/3.4.a.i> skos:hasTopConcept "https://example.com/iqb/bista2004mp/3/3.4/3.4.a" ;
+    skos:prefLabel "Standardeinheiten aus den Bereichen Geldwerte, Längen, Zeitspannen, Gewichte und Rauminhalte kennen," .
+
+<3/3.4/3.4.a/3.4.a.ii> skos:hasTopConcept "https://example.com/iqb/bista2004mp/3/3.4/3.4.a" ;
+    skos:prefLabel "Größen vergleichen, messen und schätzen," .
+
+<3/3.4/3.4.a/3.4.a.iii> skos:hasTopConcept "https://example.com/iqb/bista2004mp/3/3.4/3.4.a" ;
+    skos:prefLabel "Repräsentanten für Standardeinheiten kennen, die im Alltag wichtig sind," .
+
+<3/3.4/3.4.a/3.4.a.iv> skos:hasTopConcept "https://example.com/iqb/bista2004mp/3/3.4/3.4.a" ;
+    skos:prefLabel "Größenangaben in unterschiedlichen Schreibweisen darstellen (umwandeln)," .
+
+<3/3.4/3.4.a/3.4.a.v> skos:hasTopConcept "https://example.com/iqb/bista2004mp/3/3.4/3.4.a" ;
+    skos:prefLabel "im Alltag gebräuchliche einfache Bruchzahlen im Zusammenhang mit Größen kennen und verstehen." .
+
+<3/3.4/3.4.b> skos:hasTopConcept "https://example.com/iqb/bista2004mp/3/3.4" ;
+    skos:prefLabel "mit Größen in Sachsituationen umgehen" ;
+    skos:topConceptOf "https://example.com/iqb/bista2004mp/3/3.4/3.4.b/3.4.b.i",
+        "https://example.com/iqb/bista2004mp/3/3.4/3.4.b/3.4.b.ii",
+        "https://example.com/iqb/bista2004mp/3/3.4/3.4.b/3.4.b.iii",
+        "https://example.com/iqb/bista2004mp/3/3.4/3.4.b/3.4.b.iv" .
+
+<3/3.4/3.4.b/3.4.b.i> skos:hasTopConcept "https://example.com/iqb/bista2004mp/3/3.4/3.4.b" ;
+    skos:prefLabel "mit geeigneten Einheiten und unterschiedlichen Messgeräten sachgerecht messen," .
+
+<3/3.4/3.4.b/3.4.b.ii> skos:hasTopConcept "https://example.com/iqb/bista2004mp/3/3.4/3.4.b" ;
+    skos:prefLabel "wichtige Bezugsgrößen aus der Erfahrungswelt zum Lösen von Sachproblemen heranziehen," .
+
+<3/3.4/3.4.b/3.4.b.iii> skos:hasTopConcept "https://example.com/iqb/bista2004mp/3/3.4/3.4.b" ;
+    skos:prefLabel "in Sachsituationen angemessen mit Näherungswerten rechnen, dabei Größen begründet schätzen," .
+
+<3/3.4/3.4.b/3.4.b.iv> skos:hasTopConcept "https://example.com/iqb/bista2004mp/3/3.4/3.4.b" ;
+    skos:prefLabel "Sachaufgaben mit Größen lösen." .
+
+<3/3.5> a skos:Concept ;
+    skos:hasTopConcept "https://example.com/iqb/bista2004mp/3" ;
+    skos:prefLabel "Daten, Häufigkeit und Wahrscheinlichkeit" ;
+    skos:topConceptOf "https://example.com/iqb/bista2004mp/3/3.5/3.5.a",
+        "https://example.com/iqb/bista2004mp/3/3.5/3.5.b" .
+
+<3/3.5/3.5.a> skos:hasTopConcept "https://example.com/iqb/bista2004mp/3/3.5" ;
+    skos:prefLabel "Daten erfassen und darstellen" ;
+    skos:topConceptOf "https://example.com/iqb/bista2004mp/3/3.5/3.5.a/3.5.a.i",
+        "https://example.com/iqb/bista2004mp/3/3.5/3.5.a/3.5.a.ii" .
+
+<3/3.5/3.5.a/3.5.a.i> skos:hasTopConcept "https://example.com/iqb/bista2004mp/3/3.5/3.5.a" ;
+    skos:prefLabel "in Beobachtungen, Untersuchungen und einfachen Experimenten Daten sammeln, strukturieren und in Tabellen, Schaubildern und Diagrammen darstellen," .
+
+<3/3.5/3.5.a/3.5.a.ii> skos:hasTopConcept "https://example.com/iqb/bista2004mp/3/3.5/3.5.a" ;
+    skos:prefLabel "aus Tabellen, Schaubildern und Diagrammen Informationen entnehmen." .
+
+<3/3.5/3.5.b> skos:hasTopConcept "https://example.com/iqb/bista2004mp/3/3.5" ;
+    skos:prefLabel "Wahrscheinlichkeiten von Ereignissen in Zufallsexperimenten vergleichen" ;
+    skos:topConceptOf "https://example.com/iqb/bista2004mp/3/3.5/3.5.b/3.5.b.i",
+        "https://example.com/iqb/bista2004mp/3/3.5/3.5.b/3.5.b.ii" .
+
+<3/3.5/3.5.b/3.5.b.i> skos:hasTopConcept "https://example.com/iqb/bista2004mp/3/3.5/3.5.b" ;
+    skos:prefLabel "Grundbegriffe kennen (z. B. sicher, unmöglich, wahrscheinlich)," .
+
+<3/3.5/3.5.b/3.5.b.ii> skos:hasTopConcept "https://example.com/iqb/bista2004mp/3/3.5/3.5.b" ;
+    skos:prefLabel "Gewinnchancen bei einfachen Zufallsexperimenten (z. B. bei Würfelspielen) einschätzen." .
+
