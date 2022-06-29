@@ -1,360 +1,665 @@
-var dataMaPrimar = {
-		"id": "bista2004mp",
-        "title": "Mathematik Primar",
-        "description": "Mathematik als Werkzeug, um Erscheinungen der Welt aus Natur, Gesellschaft, Kultur, Beruf und Arbeit in einer spezifischen Weise wahrzunehmen und zu verstehen, Mathematik  als geistige Schöpfung und auch deduktiv geordnete Welt eigener Art kennen zu lernen und zu begreifen, Mathematik als Mittel zum Erwerb von auch über die Mathematik hinausgehenden, insbesondere heuristischen Fähigkeiten, zu erfahren.",
-        "dimensions": [{
-                "id": "1",
-                "title": "Anforderungsbereiche",
-                "description": "Die folgenden Aufgabenbeispiele zeigen die Bandbreite unterschiedlicher Anforderungen Manche Aufgaben bzw. Teilaufgaben lassen sich durch Reproduzieren im Rahmen gelernter und geübter Verfahren in einem abgegrenzten Gebiet lösen. Andere verlangen den selbstständigen, kreativen Umgang mit erworbenen mathematischen Kompetenzen. Wenn die Beispielaufgaben als Repräsentanten eines bestimmten Anforderungsbereichs definiert und entsprechend gekennzeichnet sind, so handelt es sich hierbei um eine vorläufige, empirisch nicht validierte Zuordnung, die nicht immer eindeutig zu treffen ist. Es werden hier so genannte „große Aufgaben“ vorgestellt, die der Leistungsheterogenität von Grundschülern dadurch Rechnung tragen, dass sie im gleichen inhaltlichen Kontext ein breites Spektrum an unterschiedlichen Anforderungen und Schwierigkeiten abdecken. Dadurch können die Aufgabenbeispiele zugleich als Muster für einen differenzierenden Unterricht fungieren, in dem alle Kinder am gleichen Inhalt arbeiten, aber nicht unbedingt dieselben Aufgaben lösen. Bei den Aufgabenbeispielen lassen sich folgende Anforderungsbereiche unterscheiden:",
-				"children": [{
-						"id": "1.1",
-                        "title": "I Reproduzieren",
-						"children": [{
-							        "id": "1.1.a",
-                                    "title": "<ul><li>Das Lösen der Aufgabe erfordert Grundwissen und das Ausführen von Routinetätigkeiten.</li></ul>",
-								}
-						    ]			
-                    }, {
-                        "id": "1.2",
-                        "title": "II Zusammenhänge herstellen",                     
-						"children": [{
-							        "id": "1.2.a",
-                                    "title": "<ul><li>Das Lösen der Aufgabe erfordert das Erkennen und Nutzen von Zusammenhängen.</li></ul>",
-								}	
-							]	
-                    }, {
-						"id": "1.3",
-                        "title": "III Verallgemeinern und Reflektieren",
-						"children": [{
-							        "id": "1.3.a",
-                                    "title": "<ul><li>Das Lösen der Aufgabe erfordert komplexe Tätigkeiten wie Strukturieren, Entwickeln von Strategien, Beurteilen und Verallgemeinern.</li></ul>",
-								}	
-							]	
-                        }
-                    ]
-			    
-		   	
-            }, {
-                "id": "2",
-                "title": "Allgemeine Kompetenzen",
-				"description": "Allgemeine mathematische Kompetenzen zeigen sich in der lebendigen Auseinandersetzung mit Mathematik und auf die gleiche Weise, in der tätigen Auseinandersetzung, werden sie erworben. Die angestrebten Formen der Nutzung von Mathematik müssen daher auch regelmäßig genutzte Formen des Mathematiklernens sein. Von zentraler Bedeutung für eine erfolgreiche Nutzung und Aneignung von Mathematik sind vor allem die folgenden fünf allgemeinen mathematischen Kompetenzen. Diese lassen sich für Schülerinnen und Schüler am Ende der 4. Jahrgangsstufe wie folgt konkretisieren:",
-				"children": [{
-						"id": "2.1",
-                        "title": "Problemlösen",
-                        "children": [{
-                                    "id": "2.1.a",
-                                    "title": "<ul><li>mathematische Kenntnisse, Fertigkeiten und Fähigkeiten bei der Bearbeitung problemhaltiger Aufgaben anwenden,</li></ul>"
-                                }, {
-                                    "id": "2.1.b",
-                                    "title": "<ul><li>Lösungsstrategien entwickeln und nutzen (z.B. systematisch probieren),</li></ul>"
-                                }, {
-                                    "id": "2.1.c",
-                                    "title": "<ul><li>Zusammenhänge erkennen, nutzen und auf ähnliche Sachverhalte übertragen.</li></ul>"
-                                }
-                            ]
-							
-                    }, {
-						"id": "2.2",
-                        "title": "Kommunizieren",
-						"children": [{
-                                    "id": "2.2.a",
-                                    "title": "<ul><li>eigene Vorgehensweisen beschreiben, Lösungswege anderer verstehen und gemeinsam darüber reflektieren,</li></ul>"
-                                }, {
-                                    "id": "2.2.b",
-                                    "title": "<ul><li>mathematische Fachbegriffe und Zeichen sachgerecht verwenden,</li></ul>"
-                                }, {
-                                    "id": "2.2.c",
-                                    "title": "<ul><li>Aufgaben gemeinsam bearbeiten, dabei Verabredungen treffen und einhalten.</li></ul>"
-                                }
-                            ]
-                        
-                    }, {
-						"id": "2.3",
-                        "title": "Argumentieren",
-						"children": [{
-                                    "id": "2.3.a",
-                                    "title": "<ul><li>mathematische Aussagen hinterfragen und auf Korrektheit prüfen,</li></ul>"
-                                }, {
-                                    "id": "2.3.b",
-                                    "title": "<ul><li>mathematische Zusammenhänge erkennen und Vermutungen entwickeln,</li></ul>"
-                                }, {
-                                    "id": "2.3.c",
-                                    "title": "<ul><li>Begründungen suchen und nachvollziehen.</li></ul>"
-                                }
-                            ]
-							
-                    }, {
-						"id": "2.4",
-					    "title": "Modellieren",
-						"children": [{
-                                    "id": "2.4.a",
-                                    "title": "<ul><li>Sachtexten und anderen Darstellungen der Lebenswirklichkeit die relevanten Informationen entnehmen,</li></ul>"
-                                }, {
-                                    "id": "2.4.b",
-                                    "title": "<ul><li>Sachprobleme in die Sprache der Mathematik übersetzen, innermathematisch lösen und diese Lösungen auf die Ausgangssituation beziehen,</li></ul>"
-                                }, {
-                                    "id": "2.4.c",
-                                    "title": "<ul><li>zu Termen, Gleichungen und bildlichen Darstellungen Sachaufgaben formulieren.</li></ul>"
-                                }
-                            ]
-					}, {
-						"id": "2.5",
-						"title": "Darstellen",
-						"children": [{
-                                    "id": "2.5.a",
-                                    "title": "<ul><li>für das Bearbeiten mathematischer Probleme geeignete Darstellungen entwickeln, auswählen und nutzen,</li></ul>"
-                                }, {
-                                    "id": "2.5.b",
-                                    "title": "<ul><li>eine Darstellung in eine andere übertragen,</li></ul>"
-                                }, {
-                                    "id": "2.5.c",
-                                    "title": "<ul><li>Darstellungen miteinander vergleichen und bewerten.</li></ul>"
-                                }
-                            ]
-					}					
-                ]
-            }, {
-                "id": "3",
-                "title": "Inhaltsbezogene Kompetenzen",
-                "description": "Die Standards orientieren sich inhaltlich an mathematischen Leitideen, die für den gesamten Mathematikunterricht - für die Grundschule undfür das weiterführende Lernen - von fundamentaler Bedeutung sind. Für Schülerinnen und Schüler am Ende der 4. Jahrgangsstufe lassen sich aus diesen Leitideen folgende Standards für inhaltsbezogene mathematische Kompetenzen ableiten, die im Unterricht aufeinander bezogen und miteinander verknüpft werden:",
-				"children": [{
-						"id": "3.1",
-                        "title": "Zahlen und Operationen",
-             			   
-						"children": [{
-                            "id": "3.1.a",
-                            "title": "Zahldarstellungen und Zahlbeziehungen verstehen",
-                            "children": [{
-                                    "id": "3.1.a.i",
-                                    "title": "den Aufbau des dezimalen Stellenwertsystems verstehen,"
-                                }, {
-                                    "id": "3.1.a.ii",
-                                    "title": "Zahlen bis 1.000.000 auf verschiedene Weise darstellen und zueinander in Beziehung setzen,"
-                                }, {
-                                    "id": "3.1.a.iii",
-                                    "title": "sich im Zahlenraum bis 1.000.000 orientieren(z. B. Zahlen der Größe nach ordnen, runden)."
-								}	
-							]		
-						},{
-                            "id": "3.1.b",
-                            "title": "Rechenoperationen verstehen und beherrschen",
-                            "children": [{
-                                    "id": "3.1.b.i",
-                                    "title": "die vier Grundrechenarten und ihre Zusammenhänge verstehen,"
-                                }, {
-                                    "id": "3.1.b.ii",
-                                    "title": "die Grundaufgaben des Kopfrechnens (Einspluseins, Einmaleins, Zahlzerlegungen) gedächtnismäßig beherrschen, deren Umkehrungen sicher ableiten und diese Grundkenntnisse auf analoge Aufgaben in größeren Zahlenräumen übertragen,"
-                                }, {
-                                    "id": "3.1.b.iii",
-                                    "title": "mündliche und halbschriftliche Rechenstrategien verstehen und bei geeigneten Aufgaben anwenden,"
-                                }, {
-									"id": "3.1.b.iv",
-									"title": "verschiedene Rechenwege vergleichen und bewerten; Rechenfehler finden, erklären und korrigieren,"
-								}, {
-									"id": "3.1.b.v",
-									"title": "Rechengesetze erkennen, erklären und benutzen,"
-								}, {
-									"id": "3.1.b.vi",
-									"title": "schriftliche Verfahren der Addition, Subtraktion und Multiplikation verstehen, geläufig ausführen und bei geeigneten Aufgaben anwenden,"
-							    }, {
-									"id": "3.1.b.vii",
-									"title": "Lösungen durch Überschlagsrechnungen und durch Anwenden der Umkehroperation kontrollieren."
-								}									
-                            ]
-						},{	
-						"id": "3.1.c",
-                            "title": "in Kontexten rechnen",
-                            "children": [{
-                                    "id": "3.1.c.i",
-                                    "title": "Sachaufgaben lösen und dabei die Beziehungen zwischen der Sache und den einzelnen Lösungsschritten beschreiben,"
-                                }, {
-                                    "id": "3.1.c.ii",
-                                    "title": "das Ergebnis auf Plausibilität prüfen,"
-                                }, {
-                                    "id": "3.1.c.iii",
-                                    "title": "bei Sachaufgaben entscheiden, ob eine Überschlagsrechnung ausreicht oder ein genaues Ergebnis nötig ist,"
-                                }, {
-									"id": "3.1.c.iv",
-									"title": "Sachaufgaben systematisch variieren,"
-								}, {
-									"id": "3.1.c.v",
-									"title": "einfache kombinatorische Aufgaben (z.B. Knobelaufgaben) durch Probieren bzw. systematisches Vorgehen lösen."			
-								}									
-                            ]	
-						}	
-					]	
-                    }, {
-						"id": "3.2",
-                        "title": "Raum und Form",
-                        "children": [{
-                            "id": "3.2.a",
-                            "title": "sich im Raum orientieren",
-                            "children": [{
-                                    "id": "3.2.a.i",
-                                    "title": "über räumliches Vorstellungsvermögen verfügen,"
-                                }, {
-                                    "id": "3.2.a.ii",
-                                    "title": "räumliche Beziehungen erkennen, beschreiben und nutzen (Anordnungen, Wege, Pläne, Ansichten),"
-                                }, {
-                                    "id": "3.2.a.iii",
-                                    "title": "zwei- und dreidimensionale Darstellungen von Bauwerken (z.B. Würfelgebäuden) zueinander in Beziehung setzen (nach Vorlage bauen, zu Bauten Baupläne erstellen, Kantenmodelle und Netze untersuchen).ße nach ordnen, runden)."
-								}	
-							]		
-						},{
-                            "id": "3.2.b",
-                            "title": "geometrische Figuren erkennen, benennen und darstellen",
-                            "children": [{
-                                    "id": "3.2.b.i",
-                                    "title": "Körper und ebene Figuren nach Eigenschaften sortieren und Fachbegriffe zuordnen,"
-                                }, {
-                                    "id": "3.2.b.ii",
-                                    "title": "Körper und ebene Figuren in der Umwelt wieder erkennen,"
-                                }, {
-                                    "id": "3.2.b.iii",
-                                    "title": "Modelle von Körpern und ebenen Figuren herstellen und untersuchen (Bauen, Legen, Zerlegen,Zusammenfügen, Ausschneiden, Falten...),"
-                                }, {
-									"id": "3.2.b.iv",
-									"title": "Zeichnungen mit Hilfsmitteln sowie Freihandzeichnungen anfertigen,"
-								}									
-                            ]
-						},{	
-						"id": "3.2.c",
-                            "title": "einfache geometrische Abbildungen erkennen, benennen und darstellen",
-                            "children": [{
-                                    "id": "3.2.c.i",
-                                    "title": "ebene Figuren in Gitternetzen abbilden (verkleinern und vergrößern),"
-                                }, {
-                                    "id": "3.2.c.ii",
-                                    "title": "Eigenschaften der Achsensymmetrie erkennen,beschreiben und nutzen,"             
-                                }, {
-									"id": "3.2.c.iii",
-									"title": "symmetrische Muster fortsetzen und selbst entwickeln."			
-								}									
-                            ]	
-						},{	
-						"id": "3.2.d",
-                            "title": "Flächen- und Rauminhalte vergleichen und messen",
-                            "children": [{
-                                    "id": "3.2.d.i",
-                                    "title": "die Flächeninhalte ebener Figuren durch Zerlegen vergleichen und durch Auslegen mit Einheitsflächen messen,"
-                                }, {
-                                    "id": "3.2.d.ii",
-                                    "title": "Umfang und Flächeninhalt von ebenen Figuren untersuchen,"
-                                }, {
-                                    "id": "3.2.d.iii",
-                                    "title": "Rauminhalte vergleichen und durch die enthaltene Anzahl von Einheitswürfeln bestimmen."
-                                			
-								}									
-                            ]		
-						}	
-					]	
-						
-                    }, {
-						"id": "3.3",
-                        "title": "Muster und Strukturen",
-                        "children": [{
-                            "id": "3.3.a",
-                            "title": "Gesetzmäßigkeiten erkennen, beschreiben und darstellen",
-                            "children": [{
-                                    "id": "3.3.a.i",
-                                    "title": "strukturierte Zahldarstellungen (z.B. Hundertertafel) verstehen und nutzen,"
-                                }, {
-                                    "id": "3.3.a.ii",
-                                    "title": "Gesetzmäßigkeiten in geometrischen und arithmetischen Mustern (z.B. in Zahlenfolgen oder strukturierten Aufgabenfolgen) erkennen, beschreiben und fortsetzen,"
-                                }, {
-                                    "id": "3.3.a.iii",
-                                    "title": "arithmetische und geometrische Muster selbst entwickeln, systematisch verändern und beschreiben."
-								}	
-							]		
-						},{
-                            "id": "3.3.b",
-                            "title": "funktionale Beziehungen erkennen, beschreiben und darstellen",
-                            "children": [{
-                                    "id": "3.3.b.i",
-                                    "title": "funktionale Beziehungen in Sachsituationen erkennen, sprachlich beschreiben (z.B. Menge - Preis) und entsprechende Aufgaben lösen,"
-                                }, {
-                                    "id": "3.3.b.ii",
-                                    "title": "funktionale Beziehungen in Tabellen darstellen und untersuchen,"
-                                }, {
-                                    "id": "3.3.b.iii",
-                                    "title": "einfache Sachaufgaben zur Proportionalität lösen."
-  
-								}									
-                            ]
-						
-						}
-					]	
-					},{
-						"id": "3.4",
-                        "title": "Größen und Messen",
-					    "children": [{
-                            "id": "3.4.a",
-                            "title": "Größenvorstellungen besitzen",
-                            "children": [{
-                                    "id": "3.4.a.i",
-                                    "title": "Standardeinheiten aus den Bereichen Geldwerte, Längen, Zeitspannen, Gewichte und Rauminhalte kennen,"
-                                }, {
-                                    "id": "3.4.a.ii",
-                                    "title": "Größen vergleichen, messen und schätzen,"
-                                }, {
-                                    "id": "3.4.a.iii",
-                                    "title": "Repräsentanten für Standardeinheiten kennen, die im Alltag wichtig sind,"
-								}, {
-                                    "id": "3.4.a.iv",
-                                    "title": "Größenangaben in unterschiedlichen Schreibweisen darstellen (umwandeln),"	
-								}, {
-                                    "id": "3.4.a.v",
-                                    "title": "im Alltag gebräuchliche einfache Bruchzahlen im Zusammenhang mit Größen kennen und verstehen."	
-								}	
-							]		
-						},{
-                            "id": "3.4.b",
-                            "title": "mit Größen in Sachsituationen umgehen",
-                            "children": [{
-                                    "id": "3.4.b.i",
-                                    "title": "mit geeigneten Einheiten und unterschiedlichen Messgeräten sachgerecht messen,"
-                                }, {
-                                    "id": "3.4.b.ii",
-                                    "title": "wichtige Bezugsgrößen aus der Erfahrungswelt zum Lösen von Sachproblemen heranziehen,"
-                                }, {
-                                    "id": "3.4.b.iii",
-                                    "title": "in Sachsituationen angemessen mit Näherungswerten rechnen, dabei Größen begründet schätzen,"
-								}, {
-                                    "id": "3.4.b.iv",
-                                    "title": "Sachaufgaben mit Größen lösen."	
-								}									
-                            ]
-						
-						}
-					]		
-					},{
-						"id": "3.5",
-                        "title": "Daten, Häufigkeit und Wahrscheinlichkeit",
-						"children": [{
-                            "id": "3.5.a",
-                            "title": "Daten erfassen und darstellen",
-                            "children": [{
-                                    "id": "3.5.a.i",
-                                    "title": "in Beobachtungen, Untersuchungen und einfachen Experimenten Daten sammeln, strukturieren und in Tabellen, Schaubildern und Diagrammen darstellen,"
-                                }, {
-                                    "id": "3.5.a.ii",
-                                    "title": "aus Tabellen, Schaubildern und Diagrammen Informationen entnehmen."	
-								}	
-							]		
-						},{
-                            "id": "3.5.b",
-                            "title": "Wahrscheinlichkeiten von Ereignissen in Zufallsexperimenten vergleichen",
-                            "children": [{
-                                    "id": "3.5.b.i",
-                                    "title": "Grundbegriffe kennen (z. B. sicher, unmöglich, wahrscheinlich),"
-                                }, {
-                                    "id": "3.5.b.ii",
-                                    "title": "Gewinnchancen bei einfachen Zufallsexperimenten (z. B. bei Würfelspielen) einschätzen."
-								}									
-                            ]
-						}
-					]	
-					}	
-				]
-		}]
-	};
+@base <https://w3id.org/iqb//bista04/bista04-ma-p/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<1/0019a3de-c92b-490e-a0e5-f75b24f2c813> a skos:Concept ;
+    skos:broader <1/cf718f91-6844-4dcb-b655-b29623c0830d> ;
+    skos:inScheme <> ;
+    skos:notation "1.2.a" ;
+    skos:prefLabel "<ul><li>Das Lösen der Aufgabe erfordert das Erkennen und Nutzen von Zusammenhängen.</li></ul>"@de .
+
+<1/3328ac3d-4b28-4024-8126-795baa83e8e8> a skos:Concept ;
+    skos:broader <1/c73695ce-9c63-4b36-a942-21bdcae57db3> ;
+    skos:inScheme <> ;
+    skos:notation "1.1.a" ;
+    skos:prefLabel "<ul><li>Das Lösen der Aufgabe erfordert Grundwissen und das Ausführen von Routinetätigkeiten.</li></ul>"@de .
+
+<1/4c00d517-66ef-4a17-b58f-39349e0a3d8f> a skos:Concept ;
+    skos:broader <1/7a690751-b30b-4c6b-ac6d-141a881ad2a9> ;
+    skos:inScheme <> ;
+    skos:notation "1.3.a" ;
+    skos:prefLabel "<ul><li>Das Lösen der Aufgabe erfordert komplexe Tätigkeiten wie Strukturieren, Entwickeln von Strategien, Beurteilen und Verallgemeinern.</li></ul>"@de .
+
+<2/0d8b6a6c-7a73-4a11-8e7e-16375379cb53> a skos:Concept ;
+    skos:broader <2/86db6a7e-a44c-417c-b96c-8b8bf967f2a7> ;
+    skos:inScheme <> ;
+    skos:notation "2.2.b" ;
+    skos:prefLabel "<ul><li>mathematische Fachbegriffe und Zeichen sachgerecht verwenden,</li></ul>"@de .
+
+<2/245d60d9-ce0e-4af3-9f83-77c943fc8855> a skos:Concept ;
+    skos:broader <2/aae28b24-db0f-449f-934f-40c8a9a163f3> ;
+    skos:inScheme <> ;
+    skos:notation "2.1.c" ;
+    skos:prefLabel "<ul><li>Zusammenhänge erkennen, nutzen und auf ähnliche Sachverhalte übertragen.</li></ul>"@de .
+
+<2/33a637a4-dfb5-4235-b52b-78b1337c1938> a skos:Concept ;
+    skos:broader <2/9e96880f-53a3-44b4-b414-bbff554d6c01> ;
+    skos:inScheme <> ;
+    skos:notation "2.4.a" ;
+    skos:prefLabel "<ul><li>Sachtexten und anderen Darstellungen der Lebenswirklichkeit die relevanten Informationen entnehmen,</li></ul>"@de .
+
+<2/35bf760e-d870-464f-ab0e-bf7a3a5f37a8> a skos:Concept ;
+    skos:broader <2/86db6a7e-a44c-417c-b96c-8b8bf967f2a7> ;
+    skos:inScheme <> ;
+    skos:notation "2.2.a" ;
+    skos:prefLabel "<ul><li>eigene Vorgehensweisen beschreiben, Lösungswege anderer verstehen und gemeinsam darüber reflektieren,</li></ul>"@de .
+
+<2/3794de1f-6986-4e61-87ba-f652ecd4223b> a skos:Concept ;
+    skos:broader <2/87c52db1-e22f-4dd2-834b-e4225b5824cb> ;
+    skos:inScheme <> ;
+    skos:notation "2.3.b" ;
+    skos:prefLabel "<ul><li>mathematische Zusammenhänge erkennen und Vermutungen entwickeln,</li></ul>"@de .
+
+<2/462cdaf4-c1ff-420c-9679-64732e546fbc> a skos:Concept ;
+    skos:broader <2/86db6a7e-a44c-417c-b96c-8b8bf967f2a7> ;
+    skos:inScheme <> ;
+    skos:notation "2.2.c" ;
+    skos:prefLabel "<ul><li>Aufgaben gemeinsam bearbeiten, dabei Verabredungen treffen und einhalten.</li></ul>"@de .
+
+<2/5210c7d2-06d5-424e-a469-163825bf6cdd> a skos:Concept ;
+    skos:broader <2/9e96880f-53a3-44b4-b414-bbff554d6c01> ;
+    skos:inScheme <> ;
+    skos:notation "2.4.c" ;
+    skos:prefLabel "<ul><li>zu Termen, Gleichungen und bildlichen Darstellungen Sachaufgaben formulieren.</li></ul>"@de .
+
+<2/6cdc2870-9884-4bbb-b7ae-259b97b22455> a skos:Concept ;
+    skos:broader <2/aae28b24-db0f-449f-934f-40c8a9a163f3> ;
+    skos:inScheme <> ;
+    skos:notation "2.1.b" ;
+    skos:prefLabel "<ul><li>Lösungsstrategien entwickeln und nutzen (z.B. systematisch probieren),</li></ul>"@de .
+
+<2/844db33e-ddd7-46e5-8ee7-dd614e5d24ed> a skos:Concept ;
+    skos:broader <2/9e96880f-53a3-44b4-b414-bbff554d6c01> ;
+    skos:inScheme <> ;
+    skos:notation "2.4.b" ;
+    skos:prefLabel "<ul><li>Sachprobleme in die Sprache der Mathematik übersetzen, innermathematisch lösen und diese Lösungen auf die Ausgangssituation beziehen,</li></ul>"@de .
+
+<2/964010c6-ca34-4d21-8b76-f3caf7373b6e> a skos:Concept ;
+    skos:broader <2/4a044f84-20ec-4296-b120-e5ceaae408c0> ;
+    skos:inScheme <> ;
+    skos:notation "2.5.a" ;
+    skos:prefLabel "<ul><li>für das Bearbeiten mathematischer Probleme geeignete Darstellungen entwickeln, auswählen und nutzen,</li></ul>"@de .
+
+<2/99d1d3ea-ab2c-4325-bf39-e2b06069ab43> a skos:Concept ;
+    skos:broader <2/4a044f84-20ec-4296-b120-e5ceaae408c0> ;
+    skos:inScheme <> ;
+    skos:notation "2.5.c" ;
+    skos:prefLabel "<ul><li>Darstellungen miteinander vergleichen und bewerten.</li></ul>"@de .
+
+<2/a3033d9b-6539-4853-82c7-6b4655d75547> a skos:Concept ;
+    skos:broader <2/87c52db1-e22f-4dd2-834b-e4225b5824cb> ;
+    skos:inScheme <> ;
+    skos:notation "2.3.c" ;
+    skos:prefLabel "<ul><li>Begründungen suchen und nachvollziehen.</li></ul>"@de .
+
+<2/a9895b25-c62b-407d-a9c5-ec799c27456e> a skos:Concept ;
+    skos:broader <2/aae28b24-db0f-449f-934f-40c8a9a163f3> ;
+    skos:inScheme <> ;
+    skos:notation "2.1.a" ;
+    skos:prefLabel "<ul><li>mathematische Kenntnisse, Fertigkeiten und Fähigkeiten bei der Bearbeitung problemhaltiger Aufgaben anwenden,</li></ul>"@de .
+
+<2/d8154590-6c76-4199-8a66-7327c5fbfddb> a skos:Concept ;
+    skos:broader <2/4a044f84-20ec-4296-b120-e5ceaae408c0> ;
+    skos:inScheme <> ;
+    skos:notation "2.5.b" ;
+    skos:prefLabel "<ul><li>eine Darstellung in eine andere übertragen,</li></ul>"@de .
+
+<2/f1462c9c-796e-454a-8c11-5ea10c5fcdb9> a skos:Concept ;
+    skos:broader <2/87c52db1-e22f-4dd2-834b-e4225b5824cb> ;
+    skos:inScheme <> ;
+    skos:notation "2.3.a" ;
+    skos:prefLabel "<ul><li>mathematische Aussagen hinterfragen und auf Korrektheit prüfen,</li></ul>"@de .
+
+<3/0c197ba1-1810-4fa9-bf02-30cd04df4d0c> a skos:Concept ;
+    skos:broader <3/ee956130-d5d6-4ca9-9b5d-923a2fff36f7> ;
+    skos:inScheme <> ;
+    skos:notation "3.1.c.ii" ;
+    skos:prefLabel "das Ergebnis auf Plausibilität prüfen,"@de .
+
+<3/0f7b356b-8044-43d5-b14e-6b827984e32c> a skos:Concept ;
+    skos:broader <3/2cddfae1-0759-4cd3-8166-6eb375f1733c> ;
+    skos:inScheme <> ;
+    skos:notation "3.2.d.i" ;
+    skos:prefLabel "die Flächeninhalte ebener Figuren durch Zerlegen vergleichen und durch Auslegen mit Einheitsflächen messen,"@de .
+
+<3/0fc07b67-863c-4f19-98c6-7a8b9b5f8bf3> a skos:Concept ;
+    skos:broader <3/fad2fe6a-e8ef-4611-a8e4-c4703aeb23ec> ;
+    skos:inScheme <> ;
+    skos:notation "3.5.a.ii" ;
+    skos:prefLabel "aus Tabellen, Schaubildern und Diagrammen Informationen entnehmen."@de .
+
+<3/124d58ae-da4f-4df8-a58e-8a6ec96f45a0> a skos:Concept ;
+    skos:broader <3/fd2861bf-26d3-4abc-a2a4-32d6d29c2132> ;
+    skos:inScheme <> ;
+    skos:notation "3.4.b.iii" ;
+    skos:prefLabel "in Sachsituationen angemessen mit Näherungswerten rechnen, dabei Größen begründet schätzen,"@de .
+
+<3/1cb62b28-977b-40c4-a19d-cc2048ccbc65> a skos:Concept ;
+    skos:broader <3/b08cf9d2-bd76-4b08-8514-4191ff489944> ;
+    skos:inScheme <> ;
+    skos:notation "3.3.a.iii" ;
+    skos:prefLabel "arithmetische und geometrische Muster selbst entwickeln, systematisch verändern und beschreiben."@de .
+
+<3/37134ea8-4fff-4399-a380-423244f4ba1b> a skos:Concept ;
+    skos:broader <3/fd2861bf-26d3-4abc-a2a4-32d6d29c2132> ;
+    skos:inScheme <> ;
+    skos:notation "3.4.b.iv" ;
+    skos:prefLabel "Sachaufgaben mit Größen lösen."@de .
+
+<3/40a8da7d-23c0-41cd-ba45-3ffaa9863204> a skos:Concept ;
+    skos:broader <3/c33ce79b-9006-4f65-9373-c71b1cbfdc6d> ;
+    skos:inScheme <> ;
+    skos:notation "3.3.b.iii" ;
+    skos:prefLabel "einfache Sachaufgaben zur Proportionalität lösen."@de .
+
+<3/5958357c-5d6b-421f-8564-a2e4f4b6343a> a skos:Concept ;
+    skos:broader <3/9fef7621-f0c0-4c43-a03e-2c9071808e0e> ;
+    skos:inScheme <> ;
+    skos:notation "3.1.a.ii" ;
+    skos:prefLabel "Zahlen bis 1.000.000 auf verschiedene Weise darstellen und zueinander in Beziehung setzen,"@de .
+
+<3/5f5b13f2-4ae3-412c-8382-bd6b3c7f883c> a skos:Concept ;
+    skos:broader <3/bb694bf1-55bc-438d-a118-ea4ade8be1c2> ;
+    skos:inScheme <> ;
+    skos:notation "3.4.a.i" ;
+    skos:prefLabel "Standardeinheiten aus den Bereichen Geldwerte, Längen, Zeitspannen, Gewichte und Rauminhalte kennen,"@de .
+
+<3/62c12775-5745-4888-b2a1-b71f91330633> a skos:Concept ;
+    skos:broader <3/6282710e-3b29-48fd-9b17-2662578d79fb> ;
+    skos:inScheme <> ;
+    skos:notation "3.1.b.vii" ;
+    skos:prefLabel "Lösungen durch Überschlagsrechnungen und durch Anwenden der Umkehroperation kontrollieren."@de .
+
+<3/64e52079-f6b7-44cf-8d2f-a0dca0b3b580> a skos:Concept ;
+    skos:broader <3/ee956130-d5d6-4ca9-9b5d-923a2fff36f7> ;
+    skos:inScheme <> ;
+    skos:notation "3.1.c.iv" ;
+    skos:prefLabel "Sachaufgaben systematisch variieren,"@de .
+
+<3/659408e0-6c25-4bf8-b97a-83980de4f0dc> a skos:Concept ;
+    skos:broader <3/ee956130-d5d6-4ca9-9b5d-923a2fff36f7> ;
+    skos:inScheme <> ;
+    skos:notation "3.1.c.i" ;
+    skos:prefLabel "Sachaufgaben lösen und dabei die Beziehungen zwischen der Sache und den einzelnen Lösungsschritten beschreiben,"@de .
+
+<3/65c6c388-3798-484c-a09c-c31d7af491ff> a skos:Concept ;
+    skos:broader <3/4ecabddb-1a7f-48ec-b609-9753f026f3eb> ;
+    skos:inScheme <> ;
+    skos:notation "3.2.c.ii" ;
+    skos:prefLabel "Eigenschaften der Achsensymmetrie erkennen,beschreiben und nutzen,"@de .
+
+<3/698af302-8e65-4ac6-ad07-65e93728528d> a skos:Concept ;
+    skos:broader <3/fad2fe6a-e8ef-4611-a8e4-c4703aeb23ec> ;
+    skos:inScheme <> ;
+    skos:notation "3.5.a.i" ;
+    skos:prefLabel "in Beobachtungen, Untersuchungen und einfachen Experimenten Daten sammeln, strukturieren und in Tabellen, Schaubildern und Diagrammen darstellen,"@de .
+
+<3/6cf92cc3-5869-47ec-ad0b-cac997988c6b> a skos:Concept ;
+    skos:broader <3/6282710e-3b29-48fd-9b17-2662578d79fb> ;
+    skos:inScheme <> ;
+    skos:notation "3.1.b.ii" ;
+    skos:prefLabel "die Grundaufgaben des Kopfrechnens (Einspluseins, Einmaleins, Zahlzerlegungen) gedächtnismäßig beherrschen, deren Umkehrungen sicher ableiten und diese Grundkenntnisse auf analoge Aufgaben in größeren Zahlenräumen übertragen,"@de .
+
+<3/78c52cae-984a-4cf1-8095-747348e374d3> a skos:Concept ;
+    skos:broader <3/6282710e-3b29-48fd-9b17-2662578d79fb> ;
+    skos:inScheme <> ;
+    skos:notation "3.1.b.iv" ;
+    skos:prefLabel "verschiedene Rechenwege vergleichen und bewerten; Rechenfehler finden, erklären und korrigieren,"@de .
+
+<3/7908d361-1940-49dd-9c1a-dd07cb7e965a> a skos:Concept ;
+    skos:broader <3/6282710e-3b29-48fd-9b17-2662578d79fb> ;
+    skos:inScheme <> ;
+    skos:notation "3.1.b.iii" ;
+    skos:prefLabel "mündliche und halbschriftliche Rechenstrategien verstehen und bei geeigneten Aufgaben anwenden,"@de .
+
+<3/80cae617-306c-4394-b5e0-02be99a4a8fb> a skos:Concept ;
+    skos:broader <3/c5dd7769-086d-46f5-9038-76946f094fbe> ;
+    skos:inScheme <> ;
+    skos:notation "3.2.a.iii" ;
+    skos:prefLabel "zwei- und dreidimensionale Darstellungen von Bauwerken (z.B. Würfelgebäuden) zueinander in Beziehung setzen (nach Vorlage bauen, zu Bauten Baupläne erstellen, Kantenmodelle und Netze untersuchen).ße nach ordnen, runden)."@de .
+
+<3/86c5d180-c685-4961-bbc3-bd69a73a7552> a skos:Concept ;
+    skos:broader <3/9a1c54fb-79ce-4384-87fc-1c16ffb4d77c> ;
+    skos:inScheme <> ;
+    skos:notation "3.2.b.ii" ;
+    skos:prefLabel "Körper und ebene Figuren in der Umwelt wieder erkennen,"@de .
+
+<3/8c5ec1ab-f8af-4f8f-b559-fcf87c6f494b> a skos:Concept ;
+    skos:broader <3/9a1c54fb-79ce-4384-87fc-1c16ffb4d77c> ;
+    skos:inScheme <> ;
+    skos:notation "3.2.b.iii" ;
+    skos:prefLabel "Modelle von Körpern und ebenen Figuren herstellen und untersuchen (Bauen, Legen, Zerlegen,Zusammenfügen, Ausschneiden, Falten...),"@de .
+
+<3/9087b316-4de6-4d3d-8805-1b40aef8ec09> a skos:Concept ;
+    skos:broader <3/bb694bf1-55bc-438d-a118-ea4ade8be1c2> ;
+    skos:inScheme <> ;
+    skos:notation "3.4.a.iv" ;
+    skos:prefLabel "Größenangaben in unterschiedlichen Schreibweisen darstellen (umwandeln),"@de .
+
+<3/93b7f2ab-c44f-435b-8c55-515a8739eab1> a skos:Concept ;
+    skos:broader <3/bb694bf1-55bc-438d-a118-ea4ade8be1c2> ;
+    skos:inScheme <> ;
+    skos:notation "3.4.a.ii" ;
+    skos:prefLabel "Größen vergleichen, messen und schätzen,"@de .
+
+<3/949910a6-a525-4689-b609-60caea08a492> a skos:Concept ;
+    skos:broader <3/9a1c54fb-79ce-4384-87fc-1c16ffb4d77c> ;
+    skos:inScheme <> ;
+    skos:notation "3.2.b.iv" ;
+    skos:prefLabel "Zeichnungen mit Hilfsmitteln sowie Freihandzeichnungen anfertigen,"@de .
+
+<3/9a64c980-20c5-4b20-841d-300702b33cbf> a skos:Concept ;
+    skos:broader <3/fd2861bf-26d3-4abc-a2a4-32d6d29c2132> ;
+    skos:inScheme <> ;
+    skos:notation "3.4.b.i" ;
+    skos:prefLabel "mit geeigneten Einheiten und unterschiedlichen Messgeräten sachgerecht messen,"@de .
+
+<3/9be356c4-d4c2-4ecc-b7ce-eb2e59b8a958> a skos:Concept ;
+    skos:broader <3/ee956130-d5d6-4ca9-9b5d-923a2fff36f7> ;
+    skos:inScheme <> ;
+    skos:notation "3.1.c.iii" ;
+    skos:prefLabel "bei Sachaufgaben entscheiden, ob eine Überschlagsrechnung ausreicht oder ein genaues Ergebnis nötig ist,"@de .
+
+<3/9d3ed768-f6e8-4195-a8bf-c5a851797cd7> a skos:Concept ;
+    skos:broader <3/c33ce79b-9006-4f65-9373-c71b1cbfdc6d> ;
+    skos:inScheme <> ;
+    skos:notation "3.3.b.i" ;
+    skos:prefLabel "funktionale Beziehungen in Sachsituationen erkennen, sprachlich beschreiben (z.B. Menge - Preis) und entsprechende Aufgaben lösen,"@de .
+
+<3/9eace35e-19d1-4caa-afc2-67928e629085> a skos:Concept ;
+    skos:broader <3/4ecabddb-1a7f-48ec-b609-9753f026f3eb> ;
+    skos:inScheme <> ;
+    skos:notation "3.2.c.iii" ;
+    skos:prefLabel "symmetrische Muster fortsetzen und selbst entwickeln."@de .
+
+<3/9efb507d-7a71-4a90-a427-8b3cbc39ce85> a skos:Concept ;
+    skos:broader <3/397f4e04-01e9-4394-a54f-636997704cca> ;
+    skos:inScheme <> ;
+    skos:notation "3.5.b.ii" ;
+    skos:prefLabel "Gewinnchancen bei einfachen Zufallsexperimenten (z. B. bei Würfelspielen) einschätzen."@de .
+
+<3/a0669e77-2d81-4dec-8b12-0e4fa4d6f4df> a skos:Concept ;
+    skos:broader <3/6282710e-3b29-48fd-9b17-2662578d79fb> ;
+    skos:inScheme <> ;
+    skos:notation "3.1.b.vi" ;
+    skos:prefLabel "schriftliche Verfahren der Addition, Subtraktion und Multiplikation verstehen, geläufig ausführen und bei geeigneten Aufgaben anwenden,"@de .
+
+<3/a5637ff0-31df-44cc-92f8-fdb1b9a13b32> a skos:Concept ;
+    skos:broader <3/ee956130-d5d6-4ca9-9b5d-923a2fff36f7> ;
+    skos:inScheme <> ;
+    skos:notation "3.1.c.v" ;
+    skos:prefLabel "einfache kombinatorische Aufgaben (z.B. Knobelaufgaben) durch Probieren bzw. systematisches Vorgehen lösen."@de .
+
+<3/ad64ead4-8e5c-44a5-ba30-f4fddc15a973> a skos:Concept ;
+    skos:broader <3/c5dd7769-086d-46f5-9038-76946f094fbe> ;
+    skos:inScheme <> ;
+    skos:notation "3.2.a.ii" ;
+    skos:prefLabel "räumliche Beziehungen erkennen, beschreiben und nutzen (Anordnungen, Wege, Pläne, Ansichten),"@de .
+
+<3/b89d8019-1b17-4c35-a7e2-e7345ec73a9e> a skos:Concept ;
+    skos:broader <3/397f4e04-01e9-4394-a54f-636997704cca> ;
+    skos:inScheme <> ;
+    skos:notation "3.5.b.i" ;
+    skos:prefLabel "Grundbegriffe kennen (z. B. sicher, unmöglich, wahrscheinlich),"@de .
+
+<3/bc9f266c-f5a1-4348-a03b-e43bccb3334a> a skos:Concept ;
+    skos:broader <3/b08cf9d2-bd76-4b08-8514-4191ff489944> ;
+    skos:inScheme <> ;
+    skos:notation "3.3.a.ii" ;
+    skos:prefLabel "Gesetzmäßigkeiten in geometrischen und arithmetischen Mustern (z.B. in Zahlenfolgen oder strukturierten Aufgabenfolgen) erkennen, beschreiben und fortsetzen,"@de .
+
+<3/c2d771b6-e0c5-4275-8a5f-64959d9a4904> a skos:Concept ;
+    skos:broader <3/9a1c54fb-79ce-4384-87fc-1c16ffb4d77c> ;
+    skos:inScheme <> ;
+    skos:notation "3.2.b.i" ;
+    skos:prefLabel "Körper und ebene Figuren nach Eigenschaften sortieren und Fachbegriffe zuordnen,"@de .
+
+<3/d38ef8c4-5e26-4586-b4dd-ee5cdc19f637> a skos:Concept ;
+    skos:broader <3/9fef7621-f0c0-4c43-a03e-2c9071808e0e> ;
+    skos:inScheme <> ;
+    skos:notation "3.1.a.iii" ;
+    skos:prefLabel "sich im Zahlenraum bis 1.000.000 orientieren(z. B. Zahlen der Größe nach ordnen, runden)."@de .
+
+<3/d9db8466-243e-4387-a181-4996cb5d7765> a skos:Concept ;
+    skos:broader <3/bb694bf1-55bc-438d-a118-ea4ade8be1c2> ;
+    skos:inScheme <> ;
+    skos:notation "3.4.a.iii" ;
+    skos:prefLabel "Repräsentanten für Standardeinheiten kennen, die im Alltag wichtig sind,"@de .
+
+<3/e2ad8ac6-7a32-49e2-a704-a4296b1dbcac> a skos:Concept ;
+    skos:broader <3/9fef7621-f0c0-4c43-a03e-2c9071808e0e> ;
+    skos:inScheme <> ;
+    skos:notation "3.1.a.i" ;
+    skos:prefLabel "den Aufbau des dezimalen Stellenwertsystems verstehen,"@de .
+
+<3/e2fa78ee-2d3f-4390-895a-f2c42cb902a4> a skos:Concept ;
+    skos:broader <3/fd2861bf-26d3-4abc-a2a4-32d6d29c2132> ;
+    skos:inScheme <> ;
+    skos:notation "3.4.b.ii" ;
+    skos:prefLabel "wichtige Bezugsgrößen aus der Erfahrungswelt zum Lösen von Sachproblemen heranziehen,"@de .
+
+<3/e85f24e2-d86f-4e1a-bbb9-38efffa273fa> a skos:Concept ;
+    skos:broader <3/b08cf9d2-bd76-4b08-8514-4191ff489944> ;
+    skos:inScheme <> ;
+    skos:notation "3.3.a.i" ;
+    skos:prefLabel "strukturierte Zahldarstellungen (z.B. Hundertertafel) verstehen und nutzen,"@de .
+
+<3/e8fc7960-ae00-49b7-a579-0efcea62c9a6> a skos:Concept ;
+    skos:broader <3/6282710e-3b29-48fd-9b17-2662578d79fb> ;
+    skos:inScheme <> ;
+    skos:notation "3.1.b.v" ;
+    skos:prefLabel "Rechengesetze erkennen, erklären und benutzen,"@de .
+
+<3/f0f75be1-3527-4ba4-836c-c3e366c981b2> a skos:Concept ;
+    skos:broader <3/c5dd7769-086d-46f5-9038-76946f094fbe> ;
+    skos:inScheme <> ;
+    skos:notation "3.2.a.i" ;
+    skos:prefLabel "über räumliches Vorstellungsvermögen verfügen,"@de .
+
+<3/f41ed75c-d827-4322-9fe2-e4d36be7f261> a skos:Concept ;
+    skos:broader <3/6282710e-3b29-48fd-9b17-2662578d79fb> ;
+    skos:inScheme <> ;
+    skos:notation "3.1.b.i" ;
+    skos:prefLabel "die vier Grundrechenarten und ihre Zusammenhänge verstehen,"@de .
+
+<3/f700a627-6390-498b-9890-72018561e605> a skos:Concept ;
+    skos:broader <3/c33ce79b-9006-4f65-9373-c71b1cbfdc6d> ;
+    skos:inScheme <> ;
+    skos:notation "3.3.b.ii" ;
+    skos:prefLabel "funktionale Beziehungen in Tabellen darstellen und untersuchen,"@de .
+
+<3/fa877c23-c915-49d9-b9a7-88b83c291667> a skos:Concept ;
+    skos:broader <3/4ecabddb-1a7f-48ec-b609-9753f026f3eb> ;
+    skos:inScheme <> ;
+    skos:notation "3.2.c.i" ;
+    skos:prefLabel "ebene Figuren in Gitternetzen abbilden (verkleinern und vergrößern),"@de .
+
+<3/fac776d8-2259-498f-8372-3763b0e4abab> a skos:Concept ;
+    skos:broader <3/2cddfae1-0759-4cd3-8166-6eb375f1733c> ;
+    skos:inScheme <> ;
+    skos:notation "3.2.d.ii" ;
+    skos:prefLabel "Umfang und Flächeninhalt von ebenen Figuren untersuchen,"@de .
+
+<3/fdaea2c9-5d33-4086-9130-df95e3c49b10> a skos:Concept ;
+    skos:broader <3/2cddfae1-0759-4cd3-8166-6eb375f1733c> ;
+    skos:inScheme <> ;
+    skos:notation "3.2.d.iii" ;
+    skos:prefLabel "Rauminhalte vergleichen und durch die enthaltene Anzahl von Einheitswürfeln bestimmen."@de .
+
+<3/fee26b0c-2ef0-4d5d-9cae-acef6e8ef305> a skos:Concept ;
+    skos:broader <3/bb694bf1-55bc-438d-a118-ea4ade8be1c2> ;
+    skos:inScheme <> ;
+    skos:notation "3.4.a.v" ;
+    skos:prefLabel "im Alltag gebräuchliche einfache Bruchzahlen im Zusammenhang mit Größen kennen und verstehen."@de .
+
+<1/7a690751-b30b-4c6b-ac6d-141a881ad2a9> a skos:Concept ;
+    skos:broader <1> ;
+    skos:inScheme <> ;
+    skos:narrower <1/4c00d517-66ef-4a17-b58f-39349e0a3d8f> ;
+    skos:notation "1.3" ;
+    skos:prefLabel "III Verallgemeinern und Reflektieren"@de .
+
+<1/c73695ce-9c63-4b36-a942-21bdcae57db3> a skos:Concept ;
+    skos:broader <1> ;
+    skos:inScheme <> ;
+    skos:narrower <1/3328ac3d-4b28-4024-8126-795baa83e8e8> ;
+    skos:notation "1.1" ;
+    skos:prefLabel "I Reproduzieren"@de .
+
+<1/cf718f91-6844-4dcb-b655-b29623c0830d> a skos:Concept ;
+    skos:broader <1> ;
+    skos:inScheme <> ;
+    skos:narrower <1/0019a3de-c92b-490e-a0e5-f75b24f2c813> ;
+    skos:notation "1.2" ;
+    skos:prefLabel "II Zusammenhänge herstellen"@de .
+
+<3/02ccd53a-a570-4449-b9dd-f6e947584dc1> a skos:Concept ;
+    skos:broader <3> ;
+    skos:inScheme <> ;
+    skos:narrower <3/bb694bf1-55bc-438d-a118-ea4ade8be1c2>,
+        <3/fd2861bf-26d3-4abc-a2a4-32d6d29c2132> ;
+    skos:notation "3.4" ;
+    skos:prefLabel "Größen und Messen"@de .
+
+<3/36738bdc-72ed-4dca-8f74-b05569cda1d6> a skos:Concept ;
+    skos:broader <3> ;
+    skos:inScheme <> ;
+    skos:narrower <3/397f4e04-01e9-4394-a54f-636997704cca>,
+        <3/fad2fe6a-e8ef-4611-a8e4-c4703aeb23ec> ;
+    skos:notation "3.5" ;
+    skos:prefLabel "Daten, Häufigkeit und Wahrscheinlichkeit"@de .
+
+<3/397f4e04-01e9-4394-a54f-636997704cca> a skos:Concept ;
+    skos:broader <3/36738bdc-72ed-4dca-8f74-b05569cda1d6> ;
+    skos:inScheme <> ;
+    skos:narrower <3/9efb507d-7a71-4a90-a427-8b3cbc39ce85>,
+        <3/b89d8019-1b17-4c35-a7e2-e7345ec73a9e> ;
+    skos:notation "3.5.b" ;
+    skos:prefLabel "Wahrscheinlichkeiten von Ereignissen in Zufallsexperimenten vergleichen"@de .
+
+<3/aad12a30-3115-4ac9-a043-43fd2765589b> a skos:Concept ;
+    skos:broader <3> ;
+    skos:inScheme <> ;
+    skos:narrower <3/b08cf9d2-bd76-4b08-8514-4191ff489944>,
+        <3/c33ce79b-9006-4f65-9373-c71b1cbfdc6d> ;
+    skos:notation "3.3" ;
+    skos:prefLabel "Muster und Strukturen"@de .
+
+<3/fad2fe6a-e8ef-4611-a8e4-c4703aeb23ec> a skos:Concept ;
+    skos:broader <3/36738bdc-72ed-4dca-8f74-b05569cda1d6> ;
+    skos:inScheme <> ;
+    skos:narrower <3/0fc07b67-863c-4f19-98c6-7a8b9b5f8bf3>,
+        <3/698af302-8e65-4ac6-ad07-65e93728528d> ;
+    skos:notation "3.5.a" ;
+    skos:prefLabel "Daten erfassen und darstellen"@de .
+
+<1> a skos:Concept ;
+    skos:definition "Die folgenden Aufgabenbeispiele zeigen die Bandbreite unterschiedlicher Anforderungen Manche Aufgaben bzw. Teilaufgaben lassen sich durch Reproduzieren im Rahmen gelernter und geübter Verfahren in einem abgegrenzten Gebiet lösen. Andere verlangen den selbstständigen, kreativen Umgang mit erworbenen mathematischen Kompetenzen. Wenn die Beispielaufgaben als Repräsentanten eines bestimmten Anforderungsbereichs definiert und entsprechend gekennzeichnet sind, so handelt es sich hierbei um eine vorläufige, empirisch nicht validierte Zuordnung, die nicht immer eindeutig zu treffen ist. Es werden hier so genannte „große Aufgaben“ vorgestellt, die der Leistungsheterogenität von Grundschülern dadurch Rechnung tragen, dass sie im gleichen inhaltlichen Kontext ein breites Spektrum an unterschiedlichen Anforderungen und Schwierigkeiten abdecken. Dadurch können die Aufgabenbeispiele zugleich als Muster für einen differenzierenden Unterricht fungieren, in dem alle Kinder am gleichen Inhalt arbeiten, aber nicht unbedingt dieselben Aufgaben lösen. Bei den Aufgabenbeispielen lassen sich folgende Anforderungsbereiche unterscheiden:"@de ;
+    skos:narrower <1/7a690751-b30b-4c6b-ac6d-141a881ad2a9>,
+        <1/c73695ce-9c63-4b36-a942-21bdcae57db3>,
+        <1/cf718f91-6844-4dcb-b655-b29623c0830d> ;
+    skos:prefLabel "Anforderungsbereiche"@de ;
+    skos:topConceptOf <> .
+
+<2/4a044f84-20ec-4296-b120-e5ceaae408c0> a skos:Concept ;
+    skos:broader <2> ;
+    skos:inScheme <> ;
+    skos:narrower <2/964010c6-ca34-4d21-8b76-f3caf7373b6e>,
+        <2/99d1d3ea-ab2c-4325-bf39-e2b06069ab43>,
+        <2/d8154590-6c76-4199-8a66-7327c5fbfddb> ;
+    skos:notation "2.5" ;
+    skos:prefLabel "Darstellen"@de .
+
+<2/86db6a7e-a44c-417c-b96c-8b8bf967f2a7> a skos:Concept ;
+    skos:broader <2> ;
+    skos:inScheme <> ;
+    skos:narrower <2/0d8b6a6c-7a73-4a11-8e7e-16375379cb53>,
+        <2/35bf760e-d870-464f-ab0e-bf7a3a5f37a8>,
+        <2/462cdaf4-c1ff-420c-9679-64732e546fbc> ;
+    skos:notation "2.2" ;
+    skos:prefLabel "Kommunizieren"@de .
+
+<2/87c52db1-e22f-4dd2-834b-e4225b5824cb> a skos:Concept ;
+    skos:broader <2> ;
+    skos:inScheme <> ;
+    skos:narrower <2/3794de1f-6986-4e61-87ba-f652ecd4223b>,
+        <2/a3033d9b-6539-4853-82c7-6b4655d75547>,
+        <2/f1462c9c-796e-454a-8c11-5ea10c5fcdb9> ;
+    skos:notation "2.3" ;
+    skos:prefLabel "Argumentieren"@de .
+
+<2/9e96880f-53a3-44b4-b414-bbff554d6c01> a skos:Concept ;
+    skos:broader <2> ;
+    skos:inScheme <> ;
+    skos:narrower <2/33a637a4-dfb5-4235-b52b-78b1337c1938>,
+        <2/5210c7d2-06d5-424e-a469-163825bf6cdd>,
+        <2/844db33e-ddd7-46e5-8ee7-dd614e5d24ed> ;
+    skos:notation "2.4" ;
+    skos:prefLabel "Modellieren"@de .
+
+<2/aae28b24-db0f-449f-934f-40c8a9a163f3> a skos:Concept ;
+    skos:broader <2> ;
+    skos:inScheme <> ;
+    skos:narrower <2/245d60d9-ce0e-4af3-9f83-77c943fc8855>,
+        <2/6cdc2870-9884-4bbb-b7ae-259b97b22455>,
+        <2/a9895b25-c62b-407d-a9c5-ec799c27456e> ;
+    skos:notation "2.1" ;
+    skos:prefLabel "Problemlösen"@de .
+
+<3/2cddfae1-0759-4cd3-8166-6eb375f1733c> a skos:Concept ;
+    skos:broader <3/1e95ddd5-eb56-43c5-a8b2-3bec667f1a02> ;
+    skos:inScheme <> ;
+    skos:narrower <3/0f7b356b-8044-43d5-b14e-6b827984e32c>,
+        <3/fac776d8-2259-498f-8372-3763b0e4abab>,
+        <3/fdaea2c9-5d33-4086-9130-df95e3c49b10> ;
+    skos:notation "3.2.d" ;
+    skos:prefLabel "Flächen- und Rauminhalte vergleichen und messen"@de .
+
+<3/4ecabddb-1a7f-48ec-b609-9753f026f3eb> a skos:Concept ;
+    skos:broader <3/1e95ddd5-eb56-43c5-a8b2-3bec667f1a02> ;
+    skos:inScheme <> ;
+    skos:narrower <3/65c6c388-3798-484c-a09c-c31d7af491ff>,
+        <3/9eace35e-19d1-4caa-afc2-67928e629085>,
+        <3/fa877c23-c915-49d9-b9a7-88b83c291667> ;
+    skos:notation "3.2.c" ;
+    skos:prefLabel "einfache geometrische Abbildungen erkennen, benennen und darstellen"@de .
+
+<3/98d0ff8b-9cb1-4952-9de0-bc3171133967> a skos:Concept ;
+    skos:broader <3> ;
+    skos:inScheme <> ;
+    skos:narrower <3/6282710e-3b29-48fd-9b17-2662578d79fb>,
+        <3/9fef7621-f0c0-4c43-a03e-2c9071808e0e>,
+        <3/ee956130-d5d6-4ca9-9b5d-923a2fff36f7> ;
+    skos:notation "3.1" ;
+    skos:prefLabel "Zahlen und Operationen"@de .
+
+<3/9fef7621-f0c0-4c43-a03e-2c9071808e0e> a skos:Concept ;
+    skos:broader <3/98d0ff8b-9cb1-4952-9de0-bc3171133967> ;
+    skos:inScheme <> ;
+    skos:narrower <3/5958357c-5d6b-421f-8564-a2e4f4b6343a>,
+        <3/d38ef8c4-5e26-4586-b4dd-ee5cdc19f637>,
+        <3/e2ad8ac6-7a32-49e2-a704-a4296b1dbcac> ;
+    skos:notation "3.1.a" ;
+    skos:prefLabel "Zahldarstellungen und Zahlbeziehungen verstehen"@de .
+
+<3/b08cf9d2-bd76-4b08-8514-4191ff489944> a skos:Concept ;
+    skos:broader <3/aad12a30-3115-4ac9-a043-43fd2765589b> ;
+    skos:inScheme <> ;
+    skos:narrower <3/1cb62b28-977b-40c4-a19d-cc2048ccbc65>,
+        <3/bc9f266c-f5a1-4348-a03b-e43bccb3334a>,
+        <3/e85f24e2-d86f-4e1a-bbb9-38efffa273fa> ;
+    skos:notation "3.3.a" ;
+    skos:prefLabel "Gesetzmäßigkeiten erkennen, beschreiben und darstellen"@de .
+
+<3/c33ce79b-9006-4f65-9373-c71b1cbfdc6d> a skos:Concept ;
+    skos:broader <3/aad12a30-3115-4ac9-a043-43fd2765589b> ;
+    skos:inScheme <> ;
+    skos:narrower <3/40a8da7d-23c0-41cd-ba45-3ffaa9863204>,
+        <3/9d3ed768-f6e8-4195-a8bf-c5a851797cd7>,
+        <3/f700a627-6390-498b-9890-72018561e605> ;
+    skos:notation "3.3.b" ;
+    skos:prefLabel "funktionale Beziehungen erkennen, beschreiben und darstellen"@de .
+
+<3/c5dd7769-086d-46f5-9038-76946f094fbe> a skos:Concept ;
+    skos:broader <3/1e95ddd5-eb56-43c5-a8b2-3bec667f1a02> ;
+    skos:inScheme <> ;
+    skos:narrower <3/80cae617-306c-4394-b5e0-02be99a4a8fb>,
+        <3/ad64ead4-8e5c-44a5-ba30-f4fddc15a973>,
+        <3/f0f75be1-3527-4ba4-836c-c3e366c981b2> ;
+    skos:notation "3.2.a" ;
+    skos:prefLabel "sich im Raum orientieren"@de .
+
+<3/1e95ddd5-eb56-43c5-a8b2-3bec667f1a02> a skos:Concept ;
+    skos:broader <3> ;
+    skos:inScheme <> ;
+    skos:narrower <3/2cddfae1-0759-4cd3-8166-6eb375f1733c>,
+        <3/4ecabddb-1a7f-48ec-b609-9753f026f3eb>,
+        <3/9a1c54fb-79ce-4384-87fc-1c16ffb4d77c>,
+        <3/c5dd7769-086d-46f5-9038-76946f094fbe> ;
+    skos:notation "3.2" ;
+    skos:prefLabel "Raum und Form"@de .
+
+<3/9a1c54fb-79ce-4384-87fc-1c16ffb4d77c> a skos:Concept ;
+    skos:broader <3/1e95ddd5-eb56-43c5-a8b2-3bec667f1a02> ;
+    skos:inScheme <> ;
+    skos:narrower <3/86c5d180-c685-4961-bbc3-bd69a73a7552>,
+        <3/8c5ec1ab-f8af-4f8f-b559-fcf87c6f494b>,
+        <3/949910a6-a525-4689-b609-60caea08a492>,
+        <3/c2d771b6-e0c5-4275-8a5f-64959d9a4904> ;
+    skos:notation "3.2.b" ;
+    skos:prefLabel "geometrische Figuren erkennen, benennen und darstellen"@de .
+
+<3/fd2861bf-26d3-4abc-a2a4-32d6d29c2132> a skos:Concept ;
+    skos:broader <3/02ccd53a-a570-4449-b9dd-f6e947584dc1> ;
+    skos:inScheme <> ;
+    skos:narrower <3/124d58ae-da4f-4df8-a58e-8a6ec96f45a0>,
+        <3/37134ea8-4fff-4399-a380-423244f4ba1b>,
+        <3/9a64c980-20c5-4b20-841d-300702b33cbf>,
+        <3/e2fa78ee-2d3f-4390-895a-f2c42cb902a4> ;
+    skos:notation "3.4.b" ;
+    skos:prefLabel "mit Größen in Sachsituationen umgehen"@de .
+
+<2> a skos:Concept ;
+    skos:definition "Allgemeine mathematische Kompetenzen zeigen sich in der lebendigen Auseinandersetzung mit Mathematik und auf die gleiche Weise, in der tätigen Auseinandersetzung, werden sie erworben. Die angestrebten Formen der Nutzung von Mathematik müssen daher auch regelmäßig genutzte Formen des Mathematiklernens sein. Von zentraler Bedeutung für eine erfolgreiche Nutzung und Aneignung von Mathematik sind vor allem die folgenden fünf allgemeinen mathematischen Kompetenzen. Diese lassen sich für Schülerinnen und Schüler am Ende der 4. Jahrgangsstufe wie folgt konkretisieren:"@de ;
+    skos:narrower <2/4a044f84-20ec-4296-b120-e5ceaae408c0>,
+        <2/86db6a7e-a44c-417c-b96c-8b8bf967f2a7>,
+        <2/87c52db1-e22f-4dd2-834b-e4225b5824cb>,
+        <2/9e96880f-53a3-44b4-b414-bbff554d6c01>,
+        <2/aae28b24-db0f-449f-934f-40c8a9a163f3> ;
+    skos:prefLabel "Allgemeine Kompetenzen"@de ;
+    skos:topConceptOf <> .
+
+<3> a skos:Concept ;
+    skos:definition "Die Standards orientieren sich inhaltlich an mathematischen Leitideen, die für den gesamten Mathematikunterricht - für die Grundschule undfür das weiterführende Lernen - von fundamentaler Bedeutung sind. Für Schülerinnen und Schüler am Ende der 4. Jahrgangsstufe lassen sich aus diesen Leitideen folgende Standards für inhaltsbezogene mathematische Kompetenzen ableiten, die im Unterricht aufeinander bezogen und miteinander verknüpft werden:"@de ;
+    skos:narrower <3/02ccd53a-a570-4449-b9dd-f6e947584dc1>,
+        <3/1e95ddd5-eb56-43c5-a8b2-3bec667f1a02>,
+        <3/36738bdc-72ed-4dca-8f74-b05569cda1d6>,
+        <3/98d0ff8b-9cb1-4952-9de0-bc3171133967>,
+        <3/aad12a30-3115-4ac9-a043-43fd2765589b> ;
+    skos:prefLabel "Inhaltsbezogene Kompetenzen"@de ;
+    skos:topConceptOf <> .
+
+<3/bb694bf1-55bc-438d-a118-ea4ade8be1c2> a skos:Concept ;
+    skos:broader <3/02ccd53a-a570-4449-b9dd-f6e947584dc1> ;
+    skos:inScheme <> ;
+    skos:narrower <3/5f5b13f2-4ae3-412c-8382-bd6b3c7f883c>,
+        <3/9087b316-4de6-4d3d-8805-1b40aef8ec09>,
+        <3/93b7f2ab-c44f-435b-8c55-515a8739eab1>,
+        <3/d9db8466-243e-4387-a181-4996cb5d7765>,
+        <3/fee26b0c-2ef0-4d5d-9cae-acef6e8ef305> ;
+    skos:notation "3.4.a" ;
+    skos:prefLabel "Größenvorstellungen besitzen"@de .
+
+<3/ee956130-d5d6-4ca9-9b5d-923a2fff36f7> a skos:Concept ;
+    skos:broader <3/98d0ff8b-9cb1-4952-9de0-bc3171133967> ;
+    skos:inScheme <> ;
+    skos:narrower <3/0c197ba1-1810-4fa9-bf02-30cd04df4d0c>,
+        <3/64e52079-f6b7-44cf-8d2f-a0dca0b3b580>,
+        <3/659408e0-6c25-4bf8-b97a-83980de4f0dc>,
+        <3/9be356c4-d4c2-4ecc-b7ce-eb2e59b8a958>,
+        <3/a5637ff0-31df-44cc-92f8-fdb1b9a13b32> ;
+    skos:notation "3.1.c" ;
+    skos:prefLabel "in Kontexten rechnen"@de .
+
+<3/6282710e-3b29-48fd-9b17-2662578d79fb> a skos:Concept ;
+    skos:broader <3/98d0ff8b-9cb1-4952-9de0-bc3171133967> ;
+    skos:inScheme <> ;
+    skos:narrower <3/62c12775-5745-4888-b2a1-b71f91330633>,
+        <3/6cf92cc3-5869-47ec-ad0b-cac997988c6b>,
+        <3/78c52cae-984a-4cf1-8095-747348e374d3>,
+        <3/7908d361-1940-49dd-9c1a-dd07cb7e965a>,
+        <3/a0669e77-2d81-4dec-8b12-0e4fa4d6f4df>,
+        <3/e8fc7960-ae00-49b7-a579-0efcea62c9a6>,
+        <3/f41ed75c-d827-4322-9fe2-e4d36be7f261> ;
+    skos:notation "3.1.b" ;
+    skos:prefLabel "Rechenoperationen verstehen und beherrschen"@de .
+
+<> a skos:ConceptScheme ;
+    dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de ;
+    dct:description "Mathematik als Werkzeug, um Erscheinungen der Welt aus Natur, Gesellschaft, Kultur, Beruf und Arbeit in einer spezifischen Weise wahrzunehmen und zu verstehen, Mathematik  als geistige Schöpfung und auch deduktiv geordnete Welt eigener Art kennen zu lernen und zu begreifen, Mathematik als Mittel zum Erwerb von auch über die Mathematik hinausgehenden, insbesondere heuristischen Fähigkeiten, zu erfahren."@de ;
+    dct:publisher "IQB" ;
+    dct:title "Mathematik Primar"@de ;
+    skos:hasTopConcept <1>,
+        <2>,
+        <3> .
+
